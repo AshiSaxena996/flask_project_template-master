@@ -1,7 +1,7 @@
 from flask import render_template, redirect, request, flash, session, url_for
 from flask_login import logout_user, current_user, login_user, login_required
 from app import app, db
-from app.models import User, Restaurant, Cuisine, Rating
+from app.models import User, Restaurant, Cuisine, Rating,Locality
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -102,32 +102,111 @@ def edit_profile():
     return render_template('edit_profile.html', title='Edit Profile', user=user)
 
 
-@app.route('/cuisine')
+@app.route('/cuisine',)
 @login_required
 def cuisine():
-    return render_template('cuisine.html', title='about_1')
+    return render_template('cuisine.html', title='Cuisines')
+
+@app.route('/query')
+def query():
+    if 'cuisine' in request.args:
+        cuisine = request.args.get('cuisine')
+        data = Restaurant.query.filter(Restaurant.cuisine.contains(cuisine)).order_by(Restaurant.rating.desc())
+        return render_template('cuisine_wise.html',title=f"{cuisine} restaurant",data=data) 
+    else:
+        return redirect('/cuisine')
 
 
-@app.route('/search')
+@app.route('/search',methods=['POST','GET'])
 def search():
     return render_template('search.html', title='about_1')
 
 
-@app.route('/price')
+@app.route('/price',methods=['POST','GET'])
 @login_required
 def price():
-    return render_template('price.html', title='about_1')
+    results = None
+    options = None
+    if request.method =='POST':
+        locality = request.form.get('locality')
+        cuisine = request.form.get('cuisine')
+        price_min = request.form.get('price_min')
+        price_max = request.form.get('price_max')
+        options = request.form
+        results = Restaurant.query.filter(Restaurant.area.contains(locality))
+        print(options)
+        if cuisine != 'All':
+            results = results.filter(Restaurant.cuisine.like(cuisine))
+        if price_max.isnumeric() and price_min.isnumeric():
+            results = results.filter(Restaurant.cost_for_two.in_([price_min, price_max]))
+        print(results)
+    localities = Locality.query.all()
+    cusines = Cuisine.query.all()
+    dataset = []
+    for row in cusines:
+        if ',' in row.name:
+            dataset.extend(row.name.split(','))
+        else:
+            dataset.append(row.name)
+    cusineslist = list(set(dataset))
+    return render_template('price.html', title='price based search', cusineslist=cusineslist, localities=localities,results=results, options=options)
+
+
+@app.route('/top_rest',methods=['POST','GET'])
+@login_required
+def top_rest():
+    results = None
+    options = None
+    if request.method =='POST':
+        locality = request.form.get('locality')
+        cuisine = request.form.get('cuisine')
+        price_min = request.form.get('price_min')
+        price_max = request.form.get('price_max')
+        options = request.form
+        results = Restaurant.query.filter(Restaurant.area.contains(locality))
+        print(options)
+        if cuisine != 'All':
+            results = results.filter(Restaurant.cuisine.like(cuisine))
+        if price_max.isnumeric() and price_min.isnumeric():
+            results = results.filter(Restaurant.rating.in_([price_min, price_max]))
+        results = results.order_by(Restaurant.rating.desc())
+    localities = Locality.query.all()
+    cusines = Cuisine.query.all()
+    dataset = []
+    for row in cusines:
+        if ',' in row.name:
+            dataset.extend(row.name.split(','))
+        else:
+            dataset.append(row.name)
+    cusineslist = list(set(dataset))
+    return render_template('top_rest.html', title='price based search', cusineslist=cusineslist, localities=localities,results=results, options=options)
 
 
 @app.route('/history')
 @login_required
 def history():
-    return render_template('history.html', title='about_1')
+    history = Rating.query.filter_by(username=current_user.username)
+    dataset =[]
+    for row in history:
+        rest = Restaurant.query.filter_by(id = row.rest_id).first_or_404()
+        dataset.append({
+            'id':row.id,
+            'rest_name':rest.name,
+            'address':rest.address,
+            'latitude':rest.latitude,
+            'longitude':rest.longitude,
+            'link':rest.zomato_url,
+            'rest_id':row.rest_id,
+            'rating':row.rating,
+            'username':row.username,
+            'date_posted':row.date_posted,
+        })
+    return render_template('history.html', title='about_1',data = dataset)
 
 
-@app.route('/top_rest')
+@app.route('/recommend')
 @login_required
-def top_rest():
+def recommend():
     return render_template('top_rest.html', title='about_1')
 
 
@@ -141,6 +220,7 @@ def demo_map():
 @login_required
 def feature_selection():
     return render_template('feature_selection.html', title='about_1')
+
 
 
 

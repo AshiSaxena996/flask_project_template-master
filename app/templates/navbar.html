@@ -6,7 +6,7 @@
           <a class="active" href="/index">RESTAURANT RECOMMENDATION SYSTEM</a>
           
         </div>
-        <div class="col-3 logo">
+        <div class="col-2 logo">
           <!-- <a href="index.html"><img class="mx-auto" src="img/logo.png" alt=""></a> -->
         </div>
         <nav class="col navbar navbar-expand-md justify-content-end">
@@ -43,12 +43,13 @@
               
               
               {% else %}
+              
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                   Account
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="/profile">User Profile</a>
+                  <a class="dropdown-item" href="/profile">{{current_user.username}} Profile</a>
                   <a class="dropdown-item" href="/history">User history</a>
                   <a class="dropdown-item" href="/logout">Logout</a>
                 </div>
@@ -65,7 +66,7 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/feature_selection">Compare</a>
+                <a class="nav-link bg-warning" href="/recommend">Recommend</a>
               </li>
               {% endif %}
             </ul>

@@ -1,0 +1,63 @@
+{% extends 'base.html'%}
+{% block css %}
+<style>
+    body{
+        background-color: rgb(252, 248, 248);
+        
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+
+<section class="banner-area relative ">
+    <div class="container" >
+        <div class="row height align-items-center justify-content-center">
+            <div class="banner-content col-lg-6">
+                <h1>CUISINES</h1>
+                <hr>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="section-top-border">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center" >{{title}} in {{data.0.city}}</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="section-top-border">
+        <div class="row">
+            <div class="col-9 mt-1 mx-auto">
+                {% include "notify.html" %}
+                <table class="table table-sm table-striped table-hover table-responsive" >
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th>Restuarant Name</th>
+                            <th><i class="fas fa-star"></i></th>
+                            <th>Famous food</th>
+                            <th>Total Rating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in data %}
+                        <tr>
+                            <td class="text-primary">{{row.name}} &nbsp;<a href="{{row.zomato_url}}" class="float-right" target="blank"><i class="fas fa-external-link-alt fa-sm"></i></a></td>
+                            <td class="text-success">{{row.rating}}</td>
+                            <td>{{row.famous_food}}</td>
+                            <td>{{row.rating_count}}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -10,14 +10,37 @@
 
 
 {% block body %}
-
 <div class="container">
     <div class="row justify-items-center">
-        <div class="col-md-6 mt-5">
-            {% include "notify.html" %}
+        <div class="col-md-12 mt-5">
             <div class="jumbotron">
                 <h1 class="display-3">User History</h1>
             </div>
+        </div>
+        <div class="col-12 mt-1">
+            {% include "notify.html" %}
+            <table class="table table-sm table-striped table-hover table-responsive" >
+                <thead class="thead-inverse">
+                    <tr>
+                        <th>id</th>
+                        <th>Restuarant Name</th>
+                        <th>Address</th>
+                        <th><i class="fas fa-star"></i></th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in data %}
+                    <tr>
+                        <td scope="row">{{row.id}}</td>
+                        <td class="text-primary">{{row.rest_name}} &nbsp;<a href="{{row.link}}" class="float-right" target="blank"><i class="fas fa-external-link-alt fa-sm"></i></a></td>
+                        <td>{{row.address}}</td>
+                        <td class="text-primary">{{row.rating}}</td>
+                        <td>{{row.date_posted.date()}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
         </div>
     </div>
 </div>

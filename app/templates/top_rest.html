@@ -1,137 +1,145 @@
 {% extends 'base.html' %}
 {% block css %}
 <style>
-  body{
-    background-color: rgb(252, 248, 248);
-    
-  }
+    body{
+        background-color: rgb(252, 248, 248);
+        
+    }
 </style>
 {% endblock %}
 {% block body %}
 
 
 
-	
 
-		<!--================ Start banner Area =================-->
-        <section class="banner-area relative">
-            <div class="container">
-                <div class="row height align-items-center justify-content-center">
-                    <div class="banner-content col-lg-5">
-                        <h1>TOP RATED!</h1>
-                        <hr>
-                        
+
+<!--================ Start banner Area =================-->
+<section class="banner-area relative">
+    <div class="container">
+        <div class="row height align-items-center justify-content-center">
+            <div class="banner-content col-lg-5">
+                <h1>TOP RATED!</h1>
+                <hr>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container" >
+    <section class="sample-text-area" style="padding-top: 0">
+        <form method="POST" class="row" style="padding: 0 20px 0 20px;">
+            
+            <div class="col-md-3">
+                <div class="single-defination">
+                    <h4 class="mb-20">LOCALITY</h4>
+                    <div class="single-element-widget">
+                        <!-- <h3 class="mb-30">Selectboxes</h3> -->
+                        <div class="default-select" id="default-select">
+                            <select name="locality">
+                                {% for row in localities %}
+                                    <option value="{{row}}">{{row}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-
-        <div class="container">
-            <div class="section-top-border">
-              <h3 class="mb-30">INSIGHTS</h3>
-              <div class="row">
-                <div class="col-lg-12">
-                  <p class="sample-text"></p>
-                  <blockquote class="generic-blockquote">
+            
+            <div class="col-md-3">
+                <div class="single-defination">
+                    <h4 class="mb-20">CUISINE</h4>
+                    <div class="single-element-widget">
+                        <div class="default-select" id="default-select">
+                            <select name="cuisine">
+                                <option value="All">All</option>
+                                {% for row in cusineslist %}
+                                    <option value="{{row}}">{{row}}</option>
+                                {% endfor %} 
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="single-defination">
+                    <h4 class="mb-20">Rating</h4>
                     
-                    <i>“Culinary is one of the most significant needs of our society as culinary is not just about the food, 
-                    but also about a community lifestyle. The norms and values of a place can be significantly related to 
-                    varieties of food available there.<Br>
-                    This page allows user to choose restaurants around them based on popularity of restaurant, as well as 
-                    some other parameters. The user is free to explore the choices given below. ”
-                    </i>
-                  
-                  </blockquote>
-                </p>
-                </div>
-              </div>
-            </div>
-            </div>
-
-            
-            
-            <div class="container" >
-                <div class="section-top-border text-center">
-                  
-                  <div class="typography">
-                      <h2 class="typo-list">CHOOSE YOUR PARAMETERS</h2>
-                  </div>
-
-                </div>
-                
-                <section class="sample-text-area" style="padding-top: 0">
-                
-                    <div class="row" style="padding: 0 20px 0 20px;">
-                        
-                        <div class="col-md-4">
-                            <div class="single-defination">
-                                <h4 class="mb-20">LOCALITY</h4>
-                                <!-- <div class="col-lg-3 col-md-4 mt-sm-30 element-wrap"> -->
-                                <div class="single-element-widget">
-                                    <!-- <h3 class="mb-30">Selectboxes</h3> -->
-                                    <div class="default-select" id="default-select">
-                                        <select>
-                                            <option value="1">English</option>
-                                            <option value="1">Spanish</option>
-                                            <option value="1">Arabic</option>
-                                            <option value="1">Portuguise</option>
-                                            <option value="1">Bengali</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="row">
+                        <div class="col-md-5 d-flex flex-column mb-20">
+                            <input name="price_min" placeholder="From" class="form-control"  type="number" min="1" max="4">
                         </div>
-
-                        <div class="col-md-4">
-                            <div class="single-defination">
-                                <h4 class="mb-20">CUISINE</h4>
-                                <div class="single-element-widget">
-                                    <!-- <h3 class="mb-30">Selectboxes</h3> -->
-                                    <div class="default-select" id="default-select">
-                                        <select>
-                                            <option value="1">English</option>
-                                            <option value="1">Spanish</option>
-                                            <option value="1">Arabic</option>
-                                            <option value="1">Portuguise</option>
-                                            <option value="1">Bengali</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-md-2 d-flex flex-column mt-3">
+                            <i class="fas fa-chevron-left fa-lg "></i>
                         </div>
-                        
-                        <div class="col-md-4">
-                            <div class="single-defination">
-                                <h4 class="mb-20">PRICE</h4>
-                                
-                            <div class="row">
-                                <div class="col-md-5 d-flex flex-column mb-20">
-                                    <input name="budget" placeholder="From" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Budget'"
-                                     class="form-control" required="" type="text">
-                                </div>
-                                <div class="col-md-2 d-flex flex-column mb-20">
-                                <p>------></p>
-                                </div>
-                                <div class="col-md-5 d-flex flex-column mb-20">
-                                    <input name="budget" placeholder="to" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Budget'"
-                                     class="form-control" required="" type="text">
-                                </div>
-                            </div>
-                            </div>
-                        </div>   
-                </div>
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <div class="button-group-area mt-20">
-                        <a href="#" class="genric-btn primary radius">SEARCH</a>
+                        <div class="col-md-5 d-flex flex-column mb-20">
+                            <input name="price_max" placeholder="to" class="form-control"  type="number" min="2" max="5">
+                        </div>
                     </div>
                 </div>
-            </section>
             </div>
-            
-            <div class="container" >
-                <div class="section-top-border text-center">
-                  </div>
-                  </div>
+            <div class="col-md-3 mt-3 d-flex justify-content-center">
+                <div class="button-group-area mt-20">
+                    <button class="genric-btn primary radius">Search</button>
+                </div>
+            </div>
+        </form>
+    </section>
+</div>
+<div class="container">
+    <div class="section-top-border">
+        <div class="row">
+            <div class="col-12 mt-1 mx-auto">
+                {% include "notify.html" %}
+                {% if results and options %}
+                <p class="lead">
+                    Selected Parameters
+                </p>
+                <span class="badge badge-pill text-upper">locality : {{options.locality}}</span>
+                <span class="badge badge-pill text-upper">Cuisine : {{options.cuisine}}</span>
+                <span class="badge badge-pill text-upper">Max price : {{options.price_min}}</span>
+                <span class="badge badge-pill text-upper">Min price : {{options.price_max}}</span>
+                <br>
+                <br>
+                <table class="table table-sm table-bordered table-striped shadow-lg table-hover " >
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th>Restuarant Id</th>
+                            <th>Restuarant Name</th>
+                            
+                            <th>Cost for Two</th>
+                            <th>Famous food</th>
+                            <th>Total Rating</th>
+                            <th><i class="fas fa-star"></i></th>
+                          
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in results %}
+                        <tr>
+                            <td><sup>{{row.id}}</sup></td>
+                            <td class="text-info">{{row.name}} &nbsp;<a href="{{row.zomato_url}}" class="float-right" target="blank"><i class="fas fa-external-link-alt fa-sm text-warning"></i></a></td>
+                            <td>{{row.cost_for_two}}</td>
+                            <td>{{row.famous_food}}</td>
+                            <td>{{row.rating_count}}</td>
+                            <td class="text-success">{{row.rating}}</td>
+                           
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                {% else %}
+                    <p class="lead">
+                        Please select options to get the data
+                    </p>
+                {% endif %}
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 {% endblock %}
