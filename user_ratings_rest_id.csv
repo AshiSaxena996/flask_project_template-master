@@ -1,0 +1,1501 @@
+,USERNAME,REST_ID,RESTAURANT,RATING
+0,user_01_abc,82057,Ritz Continental,4.5
+1,user_01_abc,83657,Coffee & Cakes - Renaissance Lucknow Hotel,4.8
+2,user_01_abc,89626,Newly Biryani,3.1
+3,user_01_abc,91276,Moti Mahal Sweets,4.1
+4,user_01_abc,93829,Lollyss,3.7
+5,user_01_abc,86930,The Deli - Novotel,3.6
+6,user_01_abc,79783,The Nawab's,4.7
+7,user_01_abc,90944,Yo Yo Land,4.3
+8,user_01_abc,78715,Snack Shack,2.6
+9,user_01_abc,97146,Manya's Bakers & Cafe,3.7
+10,user_02_abc,97099,Milan Restaurant,2.6
+11,user_02_abc,79267,Gale Regale - The Metropolitan Club,3.3
+12,user_02_abc,84842,Punjabi Tadka,5.0
+13,user_02_abc,96251,Republic Of Chicken,4.9
+14,user_02_abc,100022,Alamgir Hotel,5.0
+15,user_02_abc,100800,Panditji Ke Dehati Rasgulle,3.9
+16,user_02_abc,82949,Globe Cafe,3.1
+17,user_02_abc,77188,Dhindhora Fine Dine Restaurant,4.3
+18,user_02_abc,77290,Tanisha Restaurant,3.0
+19,user_02_abc,98172,Branche Bar - Hotel Golden Tulip,4.1
+20,user_03_abc,103002,Cafe WTF,2.5
+21,user_03_abc,79609,Grand Patio - Hotel Savvy Grand,2.7
+22,user_03_abc,75893,Balaji Bhojnalay,2.6
+23,user_03_abc,98172,Branche Bar - Hotel Golden Tulip,3.4
+24,user_03_abc,91772,Arihant Fast Food,3.4
+25,user_03_abc,85561,Asia Seven Express,3.3
+26,user_03_abc,86472,kamakhya Sweets & Bakery,2.7
+27,user_03_abc,101891,Cappuccino Blast,5.0
+28,user_03_abc,86233,Big Bite Lucknow,3.8
+29,user_03_abc,91038,Purvanchal Mutton Do Pyaza,4.6
+30,user_04_abc,88134,Easy Celebrations,4.3
+31,user_04_abc,75064,Cafe Frangipani,3.5
+32,user_04_abc,83802,Todos Pizza Cafe,4.5
+33,user_04_abc,91128,Chinese Treat & Cafe,3.3
+34,user_04_abc,76515,Zakir Restaurant,3.8
+35,user_04_abc,84729,Sai Da Dhaba,3.2
+36,user_04_abc,91556,Chawla's 2 Online.com,4.8
+37,user_04_abc,76162,Old Al-Baik,4.6
+38,user_04_abc,91323,Roast And Gravy,4.9
+39,user_04_abc,102847,Curry Leaf,4.4
+40,user_05_abc,82040,The VIF Cafe,2.5
+41,user_05_abc,90296,Al-Bake Point,4.1
+42,user_05_abc,91999,Gupta Burger Centre,3.2
+43,user_05_abc,91999,Gupta Burger Centre,4.7
+44,user_05_abc,93207,Katiyar Paratha Corner,4.1
+45,user_05_abc,89370,Mughlai Wala,2.6
+46,user_05_abc,81800,Drunch - Skyotel,4.6
+47,user_05_abc,91851,Scorpio Club,2.9
+48,user_05_abc,86187,Sainik Restra The Dhaba,2.8
+49,user_05_abc,75988,Al Zaiqa Restaurant,4.3
+50,user_06_abc,76008,Club Momentz,4.6
+51,user_06_abc,88628,Legends Sports Cafe,3.0
+52,user_06_abc,89423,China Town Fast Food & Burger King,3.7
+53,user_06_abc,87433,The Lazzat nonveg corner,4.7
+54,user_06_abc,81220,Cafe Big Shack,3.8
+55,user_06_abc,84473,Manish Eating Point,3.3
+56,user_06_abc,90319,Matlabi PaanWaala,2.9
+57,user_06_abc,74495,Chef 69,2.5
+58,user_06_abc,80654,Cosme Multi Cuisine Restaurant - Hotel Levana Suites,2.8
+59,user_06_abc,93883,Kesar Bhog,4.2
+60,user_07_abc,88243,Bhatia Bakery,4.6
+61,user_07_abc,74495,Chef 69,4.0
+62,user_07_abc,77094,Food Point,4.5
+63,user_07_abc,90682,The Grill,3.7
+64,user_07_abc,96927,Spicy Bytes,3.0
+65,user_07_abc,76841,Shivom Mithai Shop,3.9
+66,user_07_abc,103087,Scott And A Barrel,3.2
+67,user_07_abc,99425,SFC,3.5
+68,user_07_abc,96768,Delhi Veg & Non Veg Corner,3.6
+69,user_07_abc,79006,The Terrace Grill - La Place Sarovar Portico,4.6
+70,user_08_abc,76316,Billu Tandooria,2.8
+71,user_08_abc,102847,Curry Leaf,3.1
+72,user_08_abc,102359,The Royal Bite,4.1
+73,user_08_abc,85344,Modern Tea & Modern Bakery,4.2
+74,user_08_abc,82294,Venggie,4.9
+75,user_08_abc,79022,Handi Fine Dine and Family Restaurant,4.7
+76,user_08_abc,103017,Raj Sweet House,2.9
+77,user_08_abc,80304,Milkshake Factory,4.0
+78,user_08_abc,92246,Royal Awadh,4.7
+79,user_08_abc,77022,Noodle Bar,2.5
+80,user_09_abc,96314,The Tea Point,3.1
+81,user_09_abc,104977,EOS Bar & Bistro- Hotel Levana,4.7
+82,user_09_abc,81041,180 Chocoxpress,2.9
+83,user_09_abc,80490,Sanjha Chulha,4.7
+84,user_09_abc,202210,Poseidon - Ranbirs,2.6
+85,user_09_abc,79526,Daal Chawal,3.8
+86,user_09_abc,102389,Chinese Express,4.9
+87,user_09_abc,88169,Golden Court,4.4
+88,user_09_abc,84906,All About Chicken,3.3
+89,user_09_abc,102145,Shree Rajbhog,2.8
+90,user_010_abc,200152,"Acacia - Biryani, Kebabs & Curries",3.1
+91,user_010_abc,90696,Jeewan Saathi Restaurant,4.4
+92,user_010_abc,82792,Madhurima Veg,4.6
+93,user_010_abc,83690,Akbar Hotel,4.7
+94,user_010_abc,83407,Oye kaake,2.6
+95,user_010_abc,93749,Cafe 32 - Hotel India Awadh,3.3
+96,user_010_abc,95657,Balle Balle Eating Joint,3.4
+97,user_010_abc,75460,Chawlas 2,3.8
+98,user_010_abc,92919,Metro Inn Kitchen,4.7
+99,user_010_abc,74712,New Jone Hing Chinese Restaurant,3.2
+100,user_011_abc,104318,Kool Break,3.8
+101,user_011_abc,93749,Cafe 32 - Hotel India Awadh,2.7
+102,user_011_abc,84792,Standard Foods,4.6
+103,user_011_abc,91697,Tasty Khana,4.0
+104,user_011_abc,79736,Baked Brown,4.1
+105,user_011_abc,103102,Yo! Dosa,4.2
+106,user_011_abc,102080,Sky Bar - Renaissance Lucknow Hotel,2.6
+107,user_011_abc,80079,Banarasiya,4.5
+108,user_011_abc,80605,Khana Paradigm,4.8
+109,user_011_abc,89352,Saraswati Sweets And Food Court,3.3
+110,user_012_abc,77507,Zeeshan Biryani Corner,5.0
+111,user_012_abc,95544,Chanakya Barfi Bhoolok Ka Amrit Matha,4.7
+112,user_012_abc,83301,Tastes Of Bengal,3.1
+113,user_012_abc,102799,Al-Bake Chowk,4.0
+114,user_012_abc,74786,On High - Hotel Silvete,4.3
+115,user_012_abc,77188,Dhindhora Fine Dine Restaurant,4.5
+116,user_012_abc,96975,Gayatri Mishthan Bhandar,3.0
+117,user_012_abc,82983,Tasty Window,4.8
+118,user_012_abc,91539,Al-Bake,2.8
+119,user_012_abc,74805,City Dabha & Family Restaurant,4.3
+120,user_013_abc,96348,The Chicken Xpress,2.9
+121,user_013_abc,94205,Azure - Casaya Inn,3.7
+122,user_013_abc,79564,Blue Moon,3.5
+123,user_013_abc,78733,Baba Biryani,4.1
+124,user_013_abc,80336,ABC Muradabadi Chicken Biryani,4.8
+125,user_013_abc,92935,The Urban Hermit,4.2
+126,user_013_abc,74385,Sepia - Renaissance Lucknow Hotel,4.2
+127,user_013_abc,99793,Shyam Bakers,4.4
+128,user_013_abc,93668,DC Rainbow Live Ice Cream,3.9
+129,user_013_abc,91424,Shiv Misthan Bhandar,4.6
+130,user_014_abc,80192,Cake Valley,3.0
+131,user_014_abc,80366,Boons Restaurant,3.6
+132,user_014_abc,81138,Rooftop Bar - Novotel,5.0
+133,user_014_abc,83820,Food On Wheels,4.9
+134,user_014_abc,86741,The Cave's Cafe,2.7
+135,user_014_abc,101030,Sign In Cafe,3.0
+136,user_014_abc,92739,Resca Restaurant,4.0
+137,user_014_abc,97952,Gannewala,3.4
+138,user_014_abc,98484,The Fat Dumpling,2.6
+139,user_014_abc,96348,The Chicken Xpress,2.7
+140,user_015_abc,104562,The Kebab Express,3.0
+141,user_015_abc,76859,Frozen Junction,5.0
+142,user_015_abc,92898,Awadh Nawabi Restaurant,3.0
+143,user_015_abc,104928,Rocca - Hyatt Regency Lucknow,4.5
+144,user_015_abc,98558,Maa Purnagiri Restaurant,4.1
+145,user_015_abc,86187,Sainik Restra The Dhaba,4.1
+146,user_015_abc,91292,Lucknow Central Multicuisine Restaurant & Banquet,3.8
+147,user_015_abc,75441,BARBEQUE Non Veg Restaurant,4.7
+148,user_015_abc,91524,Chitchor Mithai Shop,4.2
+149,user_015_abc,85954,Kathi Junction,3.4
+150,user_016_abc,90608,Hooki Dooki,4.3
+151,user_016_abc,84892,The Saffron Restaurant,4.4
+152,user_016_abc,76237,Cakes And Bakes Shoppee,4.7
+153,user_016_abc,77987,Shiv Sagar Veg Restaurant,3.8
+154,user_016_abc,87048,Mock & Tales,4.1
+155,user_016_abc,75479,Silver Spoon - Bakers & Cafe,3.7
+156,user_016_abc,77304,07 Street Cafe & Choco Crush,4.8
+157,user_016_abc,76744,Shahi Nonveg Point,3.8
+158,user_016_abc,74786,On High - Hotel Silvete,2.9
+159,user_016_abc,80192,Cake Valley,3.8
+160,user_017_abc,87244,Sarang,2.9
+161,user_017_abc,96037,Royal Cafe And Confectionery,3.3
+162,user_017_abc,101996,Kathi Fusion,4.0
+163,user_017_abc,81581,Prashadam,2.9
+164,user_017_abc,104592,Mama Mutton,3.5
+165,user_017_abc,82073,Satte's Biryani Corner,4.1
+166,user_017_abc,76268,Grill Drill - The Metropolitan Club,2.6
+167,user_017_abc,90944,Yo Yo Land,4.6
+168,user_017_abc,104821,Brew Bakes Cafe & Bistro,4.3
+169,user_017_abc,78733,Baba Biryani,3.5
+170,user_018_abc,77688,Frosty Hub,3.0
+171,user_018_abc,84538,Balaji Grand,4.9
+172,user_018_abc,78677,Texas Cafe,4.2
+173,user_018_abc,93668,DC Rainbow Live Ice Cream,3.1
+174,user_018_abc,202210,Poseidon - Ranbirs,3.0
+175,user_018_abc,200495,Aryan Familys Delight,4.7
+176,user_018_abc,96975,Gayatri Mishthan Bhandar,2.5
+177,user_018_abc,77573,Hideout Cafe,4.3
+178,user_018_abc,78829,SkyLords,4.4
+179,user_018_abc,75677,Barcelos,3.3
+180,user_019_abc,86298,Saraca- Lebua Lucknow,4.7
+181,user_019_abc,97067,5s Lounge,4.1
+182,user_019_abc,104928,Rocca - Hyatt Regency Lucknow,3.9
+183,user_019_abc,102690,Lucknow Foods,2.8
+184,user_019_abc,203161,Al Baik - RJ Crispy,3.1
+185,user_019_abc,91983,Tarush Restaurant,2.7
+186,user_019_abc,79479,Cafe Wrappers,4.1
+187,user_019_abc,103070,Social Adda,2.6
+188,user_019_abc,82668,The Archeria,4.7
+189,user_019_abc,88337,Al Bake,2.8
+190,user_020_abc,85660,krishn Bhog Sweets & Bakery,4.7
+191,user_020_abc,74729,Swaggers,3.5
+192,user_020_abc,103304,Bajpai Puri,3.8
+193,user_020_abc,81905,The Bridge - Sapna Clarks Inn,3.1
+194,user_020_abc,79139,Lukjin - Hyatt Regency Lucknow,4.9
+195,user_020_abc,76299,Muradabadi Chicken Biryani Centre,4.3
+196,user_020_abc,79934,Destination Lucknow,3.1
+197,user_020_abc,103118,Mint Lounge - Hotel Arif Castles,4.5
+198,user_020_abc,86930,The Deli - Novotel,3.4
+199,user_020_abc,83301,Tastes Of Bengal,4.2
+200,user_021_abc,99851,Tripathi Misthan Bhandar,5.0
+201,user_021_abc,94219,Mahapadam Sweets & Food,4.0
+202,user_021_abc,75045,Awadhyana Restaurant,2.9
+203,user_021_abc,80720,Poorabiya Rasoi,4.6
+204,user_021_abc,102716,Break Point Dhaba,2.9
+205,user_021_abc,77827,Moti Mahal Delux- Tandoori Trail,4.0
+206,user_021_abc,102879,Ttamaasha Bistro Bar,3.2
+207,user_021_abc,79736,Baked Brown,4.9
+208,user_021_abc,75197,Sweet Luscious,4.3
+209,user_021_abc,95183,Baba Lassi,2.7
+210,user_022_abc,94964,Health Palace Bakery,4.3
+211,user_022_abc,83313,Anna Dosa Point,2.8
+212,user_022_abc,79548,Foodistan,4.4
+213,user_022_abc,101367,The Oven,4.0
+214,user_022_abc,76053,Dosa Plaza,3.1
+215,user_022_abc,76577,Cafe Carribean,4.9
+216,user_022_abc,104945,Jahangir Hotel,3.8
+217,user_022_abc,81957,Hot Spoons,2.7
+218,user_022_abc,88676,Shubh Shagun,3.5
+219,user_022_abc,82395,Junk House Cafe,3.1
+220,user_023_abc,91915,Delight Food,3.1
+221,user_023_abc,92577,Lazzat Non Veg Point,2.6
+222,user_023_abc,96137,Burger And Pizza Point,2.8
+223,user_023_abc,80946,Bhargava Restaurant,3.9
+224,user_023_abc,75382,Daal Mein Kala,3.9
+225,user_023_abc,86870,Shri Sahu Khasta Corner,2.8
+226,user_023_abc,88275,Gyan Vaishnav Hotel,4.3
+227,user_023_abc,103055,Narrows,3.9
+228,user_023_abc,84395,Copper Handi - Hotel Vijay Paradise,4.8
+229,user_023_abc,101148,Camcook,4.5
+230,user_024_abc,102273,Chung Fa Restaurant,4.5
+231,user_024_abc,82040,The VIF Cafe,4.9
+232,user_024_abc,89312,Chalte Firte Momos & Special Food,3.8
+233,user_024_abc,94070,Nonveg corner,2.7
+234,user_024_abc,203652,Shree Lalji Sweets,4.4
+235,user_024_abc,79409,Yellow Bakery,4.2
+236,user_024_abc,80654,Cosme Multi Cuisine Restaurant - Hotel Levana Suites,2.9
+237,user_024_abc,90855,Rivayat,3.3
+238,user_024_abc,78221,Samurai Hunger,3.1
+239,user_024_abc,81069,Chaat Chatore,3.8
+240,user_025_abc,88169,Golden Court,3.2
+241,user_025_abc,86541,The Fat Dumpling Momo Cafe,3.0
+242,user_025_abc,83592,Mughlai Zaiqa,3.9
+243,user_025_abc,92550,Biryani Hub,4.4
+244,user_025_abc,102517,The Pebbles Bistro & Bar,4.4
+245,user_025_abc,86298,Saraca- Lebua Lucknow,2.7
+246,user_025_abc,92155,Shri Ram Chaat House,4.6
+247,user_025_abc,76195,"Acacia - Biryani, Kebabs, Wraps & Curries",3.3
+248,user_025_abc,75026,Grill Inn,4.1
+249,user_025_abc,86345,TT's Jhol Jhaal,2.6
+250,user_026_abc,103118,Mint Lounge - Hotel Arif Castles,5.0
+251,user_026_abc,82622,TADKA,3.4
+252,user_026_abc,77112,Khatirdari Express,3.3
+253,user_026_abc,82998,Dezzerts,3.1
+254,user_026_abc,83172,Al Baike.net,4.4
+255,user_026_abc,101094,Mughlai The Taste,4.6
+256,user_026_abc,91931,Arya Eating Point,2.9
+257,user_026_abc,91424,Shiv Misthan Bhandar,4.7
+258,user_026_abc,96137,Burger And Pizza Point,3.2
+259,user_026_abc,75698,Shri Surendra Bhojnalay,3.1
+260,user_027_abc,104256,Shaukeens The Bistro,4.3
+261,user_027_abc,105022,Mouth Wide Shut,4.9
+262,user_027_abc,76859,Frozen Junction,4.2
+263,user_027_abc,103237,Net Ram Mithai,3.7
+264,user_027_abc,89818,Chini Adda,2.6
+265,user_027_abc,81374,Moscow Mutton,4.9
+266,user_027_abc,74630,Dosa Planet,2.8
+267,user_027_abc,82136,Le Cafe - Skyotel,3.2
+268,user_027_abc,76085,Kakis Restaurant,3.8
+269,user_027_abc,79609,Grand Patio - Hotel Savvy Grand,3.6
+270,user_028_abc,92550,Biryani Hub,3.8
+271,user_028_abc,79598,Wamesh Cafe,3.1
+272,user_028_abc,105009,Open Air Restaurant,5.1
+273,user_028_abc,87588,Lucknow Grand Inn,2.7
+274,user_028_abc,99793,Shyam Bakers,3.2
+275,user_028_abc,96901,Delhi'cious Momos,3.1
+276,user_028_abc,94964,Health Palace Bakery,2.6
+277,user_028_abc,100800,Panditji Ke Dehati Rasgulle,4.6
+278,user_028_abc,102748,KDR Exotic Dining,3.9
+279,user_028_abc,77335,Shri Ganpati Sweets & Restaurant,3.2
+280,user_029_abc,94384,Lalbagh Wahid Biryani,4.7
+281,user_029_abc,95657,Balle Balle Eating Joint,4.4
+282,user_029_abc,104271,Falak Numa Restaurant - Hotel Clarks Avadh,2.8
+283,user_029_abc,96003,M.M. Sweets,4.9
+284,user_029_abc,76299,Muradabadi Chicken Biryani Centre,2.5
+285,user_029_abc,90637,Flavours,3.6
+286,user_029_abc,92720,Sher-E-Punjab,2.9
+287,user_029_abc,84506,Originals Blends & More,2.6
+288,user_029_abc,87305,Metro View Restaurant,4.7
+289,user_029_abc,85116,Cocoberry,2.6
+290,user_030_abc,104435,Blue Owl Cafe,3.2
+291,user_030_abc,94120,Firdaus - Deep Palace,3.8
+292,user_030_abc,88169,Golden Court,4.9
+293,user_030_abc,81171,Cafe Crossover,4.6
+294,user_030_abc,201968,Indian Al-baik.com,3.1
+295,user_030_abc,79423,Hudson CafÃÂ©,3.8
+296,user_030_abc,76824,Curry On,2.7
+297,user_030_abc,95215,Al - Bakes.com,4.2
+298,user_030_abc,83447,Streat Food,3.2
+299,user_030_abc,76026,Hunger On,5.1
+300,user_031_abc,92211,Divine Dine,3.7
+301,user_031_abc,99773,Sardar Ji Ke Mashoor Chhole Bhature - Punjabi Zaika,3.5
+302,user_031_abc,77688,Frosty Hub,2.5
+303,user_031_abc,74786,On High - Hotel Silvete,3.6
+304,user_031_abc,74477,Burger Point,3.7
+305,user_031_abc,104977,EOS Bar & Bistro- Hotel Levana,3.9
+306,user_031_abc,79479,Cafe Wrappers,4.8
+307,user_031_abc,102064,Aahaar,3.9
+308,user_031_abc,84554,New Pizzza Yum,2.7
+309,user_031_abc,77641,Club Ramala Lounge & Disc,3.5
+310,user_032_abc,87724,Chickenmutton.com,3.7
+311,user_032_abc,89132,Subhash Sweets House,2.7
+312,user_032_abc,80654,Cosme Multi Cuisine Restaurant - Hotel Levana Suites,2.6
+313,user_032_abc,79066,Zafar Alam Muradabadi Chicken Biryani,2.7
+314,user_032_abc,95386,Raj Fast Food,4.4
+315,user_032_abc,86249,Al-Baik.co.in,2.8
+316,user_032_abc,89003,Ur Kitchen,2.5
+317,user_032_abc,80304,Milkshake Factory,2.7
+318,user_032_abc,100982,Lalla Biryani,4.2
+319,user_032_abc,201186,London Shakes & CafÃÂ©,4.5
+320,user_033_abc,102799,Al-Bake Chowk,3.3
+321,user_033_abc,93207,Katiyar Paratha Corner,4.4
+322,user_033_abc,88943,Parathewala.com,4.5
+323,user_033_abc,84759,Non Veg Corner & Veg Fast Food,3.3
+324,user_033_abc,89662,Big Bite,3.9
+325,user_033_abc,201905,Krishn Bhog,5.0
+326,user_033_abc,94822,The Gabbars Lounge,4.8
+327,user_033_abc,84892,The Saffron Restaurant,4.9
+328,user_033_abc,78155,Temptations,5.0
+329,user_033_abc,100051,Marksmen,3.3
+330,user_034_abc,75403,Orchid - Fortune Park BBD,3.0
+331,user_034_abc,92258,Luckys Food Point,3.4
+332,user_034_abc,102375,The Kalika Hut,3.4
+333,user_034_abc,102389,Chinese Express,4.0
+334,user_034_abc,85644,Biryani House,3.6
+335,user_034_abc,82869,Naturelo Ice Creams,3.1
+336,user_034_abc,86361,The Bard's Cafe,4.5
+337,user_034_abc,82258,Neelkanth Sweets,4.0
+338,user_034_abc,78008,Panchvati Sweets,4.6
+339,user_034_abc,78609,Tiffilo Kitchen,3.4
+340,user_035_abc,79219,Shrikanth Restaurant,4.6
+341,user_035_abc,77094,Food Point,4.8
+342,user_035_abc,82057,Ritz Continental,3.7
+343,user_035_abc,102635,Sardar Ji Ke Mashoor Chhole Bhature,3.5
+344,user_035_abc,76724,The Marigold- Fine Dine Restaurant,3.4
+345,user_035_abc,93793,Bon Bon Bakery,5.1
+346,user_035_abc,82281,Jai Mata Vaishno Bhojanalaya,3.3
+347,user_035_abc,89873,The Dessert Diaries,4.7
+348,user_035_abc,75735,Art of Chaap,3.1
+349,user_035_abc,78117,Rahman Alam Muradabadi Chicken Biryani Corner,4.1
+350,user_036_abc,76026,Hunger On,2.8
+351,user_036_abc,91377,Maha Laxmi Restaurant,4.2
+352,user_036_abc,81829,Mr. Broast,3.1
+353,user_036_abc,104684,JJ Bakers,3.5
+354,user_036_abc,94070,Nonveg corner,3.8
+355,user_036_abc,84917,Mast Banarasi Paan Family Parlour,3.9
+356,user_036_abc,75639,Class Bunk Cafe,3.2
+357,user_036_abc,83723,Baskin Robbins,3.6
+358,user_036_abc,102983,Bar Bar - Hotel India Awadh,4.3
+359,user_036_abc,76577,Cafe Carribean,3.2
+360,user_037_abc,101854,Pind Balluchi,5.1
+361,user_037_abc,79783,The Nawab's,4.5
+362,user_037_abc,78891,Haji Abdul Raheem Manzoor Hotel,3.0
+363,user_037_abc,75382,Daal Mein Kala,5.0
+364,user_037_abc,83904,Hashtag WTF,5.0
+365,user_037_abc,85755,JUG-MUG CAFE,4.5
+366,user_037_abc,75773,Dreamy Delicacies,3.6
+367,user_037_abc,79409,Yellow Bakery,5.1
+368,user_037_abc,78446,Afghani Veg Non-Veg Corner,4.6
+369,user_037_abc,94182,Dikshit Chat House,4.1
+370,user_038_abc,76069,Bhole Chature,3.6
+371,user_038_abc,89818,Chini Adda,2.7
+372,user_038_abc,83626,Mughlai Dreamz,4.4
+373,user_038_abc,82173,Hotspot Restaurant,3.7
+374,user_038_abc,83061,Bajpayee Kachori Bhandar,3.4
+375,user_038_abc,75861,Zaika by Gemini Continental Hotel,3.3
+376,user_038_abc,201905,Krishn Bhog,2.8
+377,user_038_abc,78609,Tiffilo Kitchen,4.0
+378,user_038_abc,87113,The Playhouse Cafe,2.8
+379,user_038_abc,76619,Al-Baike,4.4
+380,user_039_abc,81676,Risotto Cafe,5.0
+381,user_039_abc,101493,McDonald's,3.3
+382,user_039_abc,83479,Xoxo Ice Cream And Snacks Corner,4.8
+383,user_039_abc,104977,EOS Bar & Bistro- Hotel Levana,2.8
+384,user_039_abc,87972,Darjeeling Momos Expresss - Love At First Bite,3.6
+385,user_039_abc,201560,Shivom The Mithai Shop and Restaurant,4.7
+386,user_039_abc,74516,The Ranch,4.3
+387,user_039_abc,94070,Nonveg corner,4.7
+388,user_039_abc,90682,The Grill,2.8
+389,user_039_abc,93767,Gardenia,4.4
+390,user_040_abc,200647,Punjabi chaap corner,3.0
+391,user_040_abc,90621,New Anurag Sweets,3.2
+392,user_040_abc,77591,The Coffee Castle,2.8
+393,user_040_abc,99855,Cafe Repertwahr,4.9
+394,user_040_abc,86345,TT's Jhol Jhaal,3.9
+395,user_040_abc,202210,Poseidon - Ranbirs,4.2
+396,user_040_abc,89500,Cake And Cuddles,4.4
+397,user_040_abc,77745,Shree Naresh Baker's,4.2
+398,user_040_abc,88021,Biryani Point,3.1
+399,user_040_abc,85596,Aaja Khaja,3.9
+400,user_041_abc,78373,Holy Monkey,3.9
+401,user_041_abc,76499,Khatirdari Multicuisine Restaurant,2.7
+402,user_041_abc,104318,Kool Break,2.6
+403,user_041_abc,78286,Shree Ram Ram Restaurant,4.7
+404,user_041_abc,84639,DineOut Restaurant,3.1
+405,user_041_abc,76195,"Acacia - Biryani, Kebabs, Wraps & Curries",2.8
+406,user_041_abc,79916,Farabi Eating Point,2.8
+407,user_041_abc,90992,Mr Litti Wala,4.0
+408,user_041_abc,83753,Windsor Cafe and Bakery,3.9
+409,user_041_abc,94368,Gupta Bakery & Confectionery,4.8
+410,user_042_abc,85012,Ande Ka Funda,4.2
+411,user_042_abc,81291,Al-Baik.Com,3.7
+412,user_042_abc,85254,P.U.J. - Pop Up Joint,4.3
+413,user_042_abc,91999,Gupta Burger Centre,4.5
+414,user_042_abc,84015,Prema Delight,2.6
+415,user_042_abc,89168,S2S Restrobar By D'Corbiz,4.6
+416,user_042_abc,95091,Al Bake Meals-Fryday,3.6
+417,user_042_abc,84776,Raj Bhojnalya & Fast Food Center,4.7
+418,user_042_abc,76724,The Marigold- Fine Dine Restaurant,5.1
+419,user_042_abc,101451,Closet Fashion Cafe,2.9
+420,user_043_abc,104209,Kava Restaurant - Fairfield by Marriott,3.3
+421,user_043_abc,77573,Hideout Cafe,2.8
+422,user_043_abc,78373,Holy Monkey,3.3
+423,user_043_abc,104789,Keventers,2.8
+424,user_043_abc,102690,Lucknow Foods,2.8
+425,user_043_abc,86440,King's Kitchen,4.2
+426,user_043_abc,85079,Ram Janki Mishtan Bhandar,3.0
+427,user_043_abc,79139,Lukjin - Hyatt Regency Lucknow,3.5
+428,user_043_abc,78008,Panchvati Sweets,3.4
+429,user_043_abc,82668,The Archeria,4.3
+430,user_044_abc,83547,Mishra Bhojanalaya,3.9
+431,user_044_abc,81187,Desi kitchen,3.5
+432,user_044_abc,91556,Chawla's 2 Online.com,4.8
+433,user_044_abc,95984,Chaat Darbar,3.1
+434,user_044_abc,102517,The Pebbles Bistro & Bar,2.6
+435,user_044_abc,201138,Keventers - The Original Milkshake,4.9
+436,user_044_abc,95774,Degchi,4.9
+437,user_044_abc,83854,Wow Foods,4.1
+438,user_044_abc,76053,Dosa Plaza,4.4
+439,user_044_abc,76268,Grill Drill - The Metropolitan Club,3.5
+440,user_045_abc,90944,Yo Yo Land,3.7
+441,user_045_abc,79846,Roti Boti Tarka,3.3
+442,user_045_abc,80946,Bhargava Restaurant,4.2
+443,user_045_abc,82688,The Hungry Momo Cafe,3.3
+444,user_045_abc,101641,Cafe By Default,4.2
+445,user_045_abc,84995,Bhojnic Restaurant,3.0
+446,user_045_abc,85046,Tadka India Da,4.5
+447,user_045_abc,94791,Eat Street,2.6
+448,user_045_abc,77707,Burgrill,3.9
+449,user_045_abc,100735,Mughlai Huttz,3.4
+450,user_046_abc,91625,Shyam Lassi Bhandar,3.9
+451,user_046_abc,83690,Akbar Hotel,3.3
+452,user_046_abc,102569,Aadab-e-Dastarkhwan,4.0
+453,user_046_abc,93011,Khushi Nanital Momos,4.4
+454,user_046_abc,78138,Garden Grille & Bar - Hilton Garden Inn,4.0
+455,user_046_abc,201186,London Shakes & CafÃÂ©,4.0
+456,user_046_abc,82281,Jai Mata Vaishno Bhojanalaya,3.7
+457,user_046_abc,102145,Shree Rajbhog,2.8
+458,user_046_abc,79409,Yellow Bakery,4.7
+459,user_046_abc,77759,Mini Restaurant,4.2
+460,user_047_abc,86392,Siya's Kitchen,3.3
+461,user_047_abc,94822,The Gabbars Lounge,4.2
+462,user_047_abc,84538,Balaji Grand,4.7
+463,user_047_abc,99936,Pizza King,3.0
+464,user_047_abc,91476,Level 1,4.5
+465,user_047_abc,76237,Cakes And Bakes Shoppee,2.9
+466,user_047_abc,102359,The Royal Bite,4.2
+467,user_047_abc,80336,ABC Muradabadi Chicken Biryani,2.7
+468,user_047_abc,76145,Night Grill,3.1
+469,user_047_abc,88976,Hot Platter,4.3
+470,user_048_abc,98349,Food Zone,3.4
+471,user_048_abc,79267,Gale Regale - The Metropolitan Club,2.6
+472,user_048_abc,92375,Cafe Roost Dine And Lounge,2.7
+473,user_048_abc,89115,Chowpatee Pav bhaji No. 1,3.0
+474,user_048_abc,102913,Sura Vie by TYC,3.5
+475,user_048_abc,102359,The Royal Bite,3.3
+476,user_048_abc,78989,Sandwichooz,4.8
+477,user_048_abc,76859,Frozen Junction,4.9
+478,user_048_abc,85710,Aangan,3.5
+479,user_048_abc,200495,Aryan Familys Delight,3.9
+480,user_049_abc,84063,Awadh Pizza Fun,4.0
+481,user_049_abc,76744,Shahi Nonveg Point,2.7
+482,user_049_abc,80509,Grilled Box,3.1
+483,user_049_abc,81205,Naimat Khana,4.5
+484,user_049_abc,97018,Mughal Darbar,4.2
+485,user_049_abc,103353,Aura Lounge & Bar,4.1
+486,user_049_abc,100200,Pizza Plaza,2.8
+487,user_049_abc,202006,Indian Al-Baik.Com,3.3
+488,user_049_abc,74822,Milan Biryani Corner,5.0
+489,user_049_abc,79846,Roti Boti Tarka,4.1
+490,user_050_abc,80982,Center Point Restaurant,3.6
+491,user_050_abc,95756,One Way,3.8
+492,user_050_abc,75677,Barcelos,4.4
+493,user_050_abc,84748,Havmor Ice Cream,3.5
+494,user_050_abc,104241,Page 3,4.1
+495,user_050_abc,76130,The Concept-Headquarters,3.7
+496,user_050_abc,95657,Balle Balle Eating Joint,3.0
+497,user_050_abc,94182,Dikshit Chat House,3.3
+498,user_050_abc,82023,Jai Durgay Ma Vaishnav Bhojanalaya,3.0
+499,user_050_abc,102929,Pizza Port,2.9
+500,user_051_abc,94275,Sanjha Chulah,5.1
+501,user_051_abc,91181,Saffron Spice,4.3
+502,user_051_abc,82573,MIRCHI MOMOS,4.3
+503,user_051_abc,88199,The Beanstalk Cafe,4.7
+504,user_051_abc,76130,The Concept-Headquarters,5.1
+505,user_051_abc,79460,Crazzzy Chicken,4.6
+506,user_051_abc,82792,Madhurima Veg,2.8
+507,user_051_abc,88243,Bhatia Bakery,3.2
+508,user_051_abc,76402,The Penthouse Cafe,4.9
+509,user_051_abc,97082,Kesari's Snacks Joint,4.4
+510,user_052_abc,80886,Geetanjali's Kitchen,4.1
+511,user_052_abc,84759,Non Veg Corner & Veg Fast Food,3.5
+512,user_052_abc,81058,Naushijaan Darbar,4.9
+513,user_052_abc,104486,Goli Vada Pav,3.9
+514,user_052_abc,94400,Aj Mughlai Point,3.0
+515,user_052_abc,82057,Ritz Continental,3.1
+516,user_052_abc,79526,Daal Chawal,3.6
+517,user_052_abc,87228,Raj Biryani Corner,4.8
+518,user_052_abc,81570,Sangam Restaurant,4.2
+519,user_052_abc,77987,Shiv Sagar Veg Restaurant,4.9
+520,user_053_abc,86170,Lazeez Non Veg corner,2.8
+521,user_053_abc,99851,Tripathi Misthan Bhandar,3.4
+522,user_053_abc,82983,Tasty Window,4.7
+523,user_053_abc,96195,Shahi Muradabadi Biryani,3.4
+524,user_053_abc,91210,The Mughal Taj,4.8
+525,user_053_abc,81205,Naimat Khana,2.6
+526,user_053_abc,87527,Suraj Fast Food Center,3.1
+527,user_053_abc,91524,Chitchor Mithai Shop,4.4
+528,user_053_abc,82622,TADKA,2.7
+529,user_053_abc,75064,Cafe Frangipani,3.4
+530,user_054_abc,87481,Shivaaz Sweets,3.8
+531,user_054_abc,80031,Desi Rasoi,3.5
+532,user_054_abc,201913,Al-baik.com,4.2
+533,user_054_abc,83530,Crackerjacks Restaurant & Cafe,5.0
+534,user_054_abc,79676,Pizza Cutter,2.5
+535,user_054_abc,104363,Cheer Peer - The Metropolitan Club,4.1
+536,user_054_abc,97571,Shake & Roll,4.8
+537,user_054_abc,83387,Akram Biryani House,3.2
+538,user_054_abc,91664,Kanha Kunj Foods,4.3
+539,user_054_abc,77745,Shree Naresh Baker's,3.3
+540,user_055_abc,99263,M/S Cafe Plus,4.1
+541,user_055_abc,80143,Pav Bhaji Wala,4.3
+542,user_055_abc,93575,Khau Galli,3.8
+543,user_055_abc,91679,Aamrapali Sweets & Restaurant,4.5
+544,user_055_abc,87404,Indian Coffee House,3.7
+545,user_055_abc,87921,Wah Ji Wah,3.9
+546,user_055_abc,79267,Gale Regale - The Metropolitan Club,4.0
+547,user_055_abc,91323,Roast And Gravy,5.0
+548,user_055_abc,102913,Sura Vie by TYC,3.8
+549,user_055_abc,86930,The Deli - Novotel,4.4
+550,user_056_abc,99754,KFC,4.5
+551,user_056_abc,102486,Percussion,4.5
+552,user_056_abc,100800,Panditji Ke Dehati Rasgulle,4.5
+553,user_056_abc,83479,Xoxo Ice Cream And Snacks Corner,4.1
+554,user_056_abc,80031,Desi Rasoi,4.7
+555,user_056_abc,102766,Non Veg Point,4.3
+556,user_056_abc,202669,Goli Vada Pav No.1,3.1
+557,user_056_abc,88004,Bukhara Grill,3.0
+558,user_056_abc,104347,Pack 'N' Chew,4.3
+559,user_056_abc,92758,Citrus Cafe - Lemon Tree,3.5
+560,user_057_abc,81389,The Table,3.4
+561,user_057_abc,79174,Burger Nest,3.2
+562,user_057_abc,84710,Narayan Veg,3.9
+563,user_057_abc,95888,Agarwal Sweets,3.4
+564,user_057_abc,75009,Chuck Bungalow,4.4
+565,user_057_abc,92323,Eat-Liano Pizza,2.6
+566,user_057_abc,104241,Page 3,5.0
+567,user_057_abc,102359,The Royal Bite,4.9
+568,user_057_abc,91242,Coffee Kopcha,3.6
+569,user_057_abc,79158,Pandey's Shashwat Sweets,4.3
+570,user_058_abc,105061,Sharma's Restaurant,4.9
+571,user_058_abc,93439,Kanishka Mishthan,3.2
+572,user_058_abc,101910,Ritzz Continental Corner,3.1
+573,user_058_abc,89370,Mughlai Wala,4.3
+574,user_058_abc,79460,Crazzzy Chicken,3.5
+575,user_058_abc,104209,Kava Restaurant - Fairfield by Marriott,4.9
+576,user_058_abc,97225,Al-baik Rj Crispy,4.2
+577,user_058_abc,101695,Urban Qettle,4.4
+578,user_058_abc,79346,Atrium - Hotel Levana,4.5
+579,user_058_abc,93591,Domino's Pizza,3.8
+580,user_059_abc,88103,Curry Tari,5.0
+581,user_059_abc,89279,Cafe-Lko 32,3.3
+582,user_059_abc,101406,Colours by Royal Cafe - Royal Inn,3.1
+583,user_059_abc,104225,Shyam Swaad,3.1
+584,user_059_abc,77319,Jain Chat,2.7
+585,user_059_abc,78253,The Sugar Rack - Bakery & Cafe,4.1
+586,user_059_abc,92703,Naughty Foods,4.9
+587,user_059_abc,78865,Azad Dairy & Sweets,4.0
+588,user_059_abc,102438,Manoranjan Sweet House,4.8
+589,user_059_abc,103272,Classic Treat Restaurant,4.4
+590,user_060_abc,94120,Firdaus - Deep Palace,3.4
+591,user_060_abc,92642,House Of Chinese,3.7
+592,user_060_abc,92505,Rahim Hotel,5.0
+593,user_060_abc,74651,Dabbu Veg,2.8
+594,user_060_abc,88186,Menara Restaurant & Lounge,4.9
+595,user_060_abc,101216,Baati Chokha,2.6
+596,user_060_abc,84339,ARMA - The Lounge And Game Station,4.4
+597,user_060_abc,77441,Handi Biryani,2.6
+598,user_060_abc,78253,The Sugar Rack - Bakery & Cafe,3.7
+599,user_060_abc,95215,Al - Bakes.com,4.3
+600,user_061_abc,75929,Royal Grill,4.4
+601,user_061_abc,104286,Cafe GoDown,4.9
+602,user_061_abc,86890,Little Bunny Baker's Hub,4.0
+603,user_061_abc,78155,Temptations,3.1
+604,user_061_abc,88929,Shake & Shake,4.2
+605,user_061_abc,201426,Lucknowkitchen.in,3.4
+606,user_061_abc,88004,Bukhara Grill,2.6
+607,user_061_abc,79899,Terrace By Oak'S,4.9
+608,user_061_abc,87244,Sarang,2.5
+609,user_061_abc,83250,Dining Delight,2.7
+610,user_062_abc,85971,Awadhi Bites,4.7
+611,user_062_abc,85046,Tadka India Da,4.7
+612,user_062_abc,76875,Chatpati Fish House,3.1
+613,user_062_abc,88186,Menara Restaurant & Lounge,4.4
+614,user_062_abc,81872,C'Cafe Hut,3.5
+615,user_062_abc,103087,Scott And A Barrel,3.7
+616,user_062_abc,74947,The G.T. Road,4.8
+617,user_062_abc,102730,New Chik Chik Chicken Corner,4.0
+618,user_062_abc,98397,Cooking on Booking,3.9
+619,user_062_abc,94219,Mahapadam Sweets & Food,3.8
+620,user_063_abc,84571,Brio Art House & Cafe - Ramada Lucknow,4.8
+621,user_063_abc,102701,Deva Food Mart,2.8
+622,user_063_abc,84355,Yadav Khasta & Vada,2.8
+623,user_063_abc,81976,Kechup Fast Food,3.6
+624,user_063_abc,92440,Dastan Lounge,5.0
+625,user_063_abc,81275,Annapurna Sweets,4.1
+626,user_063_abc,96121,Hotel Maharaja,3.0
+627,user_063_abc,77473,Froozo,3.4
+628,user_063_abc,104363,Cheer Peer - The Metropolitan Club,4.4
+629,user_063_abc,87527,Suraj Fast Food Center,4.9
+630,user_064_abc,81725,Gouri Eating Point,3.1
+631,user_064_abc,102536,Kukku Da Dhaba,4.2
+632,user_064_abc,82395,Junk House Cafe,3.3
+633,user_064_abc,101675,Mashi Biryani World,4.2
+634,user_064_abc,81659,Vaango!,4.5
+635,user_064_abc,81324,Durga Kachodi bhandar,3.0
+636,user_064_abc,81257,Shaan Banaras,2.5
+637,user_064_abc,102229,Naushijaan,4.4
+638,user_064_abc,85644,Biryani House,4.0
+639,user_064_abc,101475,Jai Mata Di Lassi Bhandar,4.2
+640,user_065_abc,104868,The Cairo Tales,2.9
+641,user_065_abc,79998,Caprice - Radisson Lucknow City Center,3.4
+642,user_065_abc,100187,Ananya Restaurant,4.2
+643,user_065_abc,75912,Bahen Ki Rasoi,3.9
+644,user_065_abc,89610,The Spice Food Factory,4.9
+645,user_065_abc,100069,La Pino'z Pizza,2.7
+646,user_065_abc,89312,Chalte Firte Momos & Special Food,2.7
+647,user_065_abc,101625,Aryan Family's Delight,3.0
+648,user_065_abc,95073,Al Baik Corner,5.0
+649,user_065_abc,95053,Hangout Cafe,4.7
+650,user_066_abc,91915,Delight Food,2.7
+651,user_066_abc,81406,Giani's Ice Cream,4.0
+652,user_066_abc,95265,Gazal Restaurant & Bar,2.6
+653,user_066_abc,87606,Retro Cafe,3.4
+654,user_066_abc,82983,Tasty Window,5.0
+655,user_066_abc,86298,Saraca- Lebua Lucknow,4.5
+656,user_066_abc,89922,Vidhyarthi Cafetreia,4.3
+657,user_066_abc,94368,Gupta Bakery & Confectionery,3.9
+658,user_066_abc,74420,Ram Asrey,3.4
+659,user_066_abc,101493,McDonald's,3.0
+660,user_067_abc,84858,Project Biryani Kolkata,4.4
+661,user_067_abc,87972,Darjeeling Momos Expresss - Love At First Bite,4.9
+662,user_067_abc,104913,Moti Mahal Delux Tandoori Trail,4.2
+663,user_067_abc,95837,Sri Bhojanalaya,2.7
+664,user_067_abc,85239,Desert Chill Ice Cream Parlour,4.2
+665,user_067_abc,101382,Eatery Castle,3.2
+666,user_067_abc,92658,Snooks of Snookers,5.0
+667,user_067_abc,79783,The Nawab's,3.6
+668,user_067_abc,94869,Namaste lucknow Nonveg Family Restaurant,3.8
+669,user_067_abc,101319,The Flying Saucer Cafe,5.0
+670,user_068_abc,81570,Sangam Restaurant,3.8
+671,user_068_abc,75266,Biryani Pack,4.9
+672,user_068_abc,78807,Delicioso Kitchen,3.9
+673,user_068_abc,94413,New Morya Bhojanalay,4.7
+674,user_068_abc,89641,Richi Rich Fast Food,4.0
+675,user_068_abc,77172,Mast Bites,3.4
+676,user_068_abc,95587,Pakeeza Juice Corner,3.9
+677,user_068_abc,94054,Indo_Chini Foods,2.8
+678,user_068_abc,83802,Todos Pizza Cafe,3.1
+679,user_068_abc,80621,Punjab De Mashoor Chole Bhature,3.0
+680,user_069_abc,91181,Saffron Spice,4.6
+681,user_069_abc,93228,Royal Veg. Corner,2.6
+682,user_069_abc,76299,Muradabadi Chicken Biryani Centre,3.7
+683,user_069_abc,90319,Matlabi PaanWaala,4.2
+684,user_069_abc,98558,Maa Purnagiri Restaurant,4.1
+685,user_069_abc,103237,Net Ram Mithai,3.1
+686,user_069_abc,90992,Mr Litti Wala,5.1
+687,user_069_abc,94352,The Chilly's,3.5
+688,user_069_abc,89099,Tulsi Sweets,4.8
+689,user_069_abc,83560,Nanaks Muskaan Mithai Bhandar,4.2
+690,user_070_abc,92919,Metro Inn Kitchen,3.4
+691,user_070_abc,102179,Maa Durga Restaurant,4.5
+692,user_070_abc,84421,Burma Biscuit Company,3.5
+693,user_070_abc,78155,Temptations,4.3
+694,user_070_abc,88119,Matchpoint Restaurant - Maple Leaf,3.1
+695,user_070_abc,75139,Prem Non Veg Point,3.9
+696,user_070_abc,82640,Chai Da Adda,5.0
+697,user_070_abc,83236,Tript Aahar,4.4
+698,user_070_abc,104620,Cafe 26,5.0
+699,user_070_abc,95123,Hum Dum Foods,4.9
+700,user_071_abc,101711,Rattilals,3.0
+701,user_071_abc,75988,Al Zaiqa Restaurant,3.3
+702,user_071_abc,78796,Rich Tadka,2.7
+703,user_071_abc,75479,Silver Spoon - Bakers & Cafe,3.5
+704,user_071_abc,76515,Zakir Restaurant,2.9
+705,user_071_abc,104271,Falak Numa Restaurant - Hotel Clarks Avadh,4.3
+706,user_071_abc,101231,Durgma Restaurant,3.1
+707,user_071_abc,101641,Cafe By Default,4.6
+708,user_071_abc,83265,Al Baik Xpress,3.3
+709,user_071_abc,81423,Grand Son Of Tunday Kababi,2.9
+710,user_072_abc,77707,Burgrill,3.9
+711,user_072_abc,85295,Shiv Bhandar,3.9
+712,user_072_abc,100253,Indrani Sweets And Restaurant,4.8
+713,user_072_abc,100152,Moti Mahal,4.1
+714,user_072_abc,77473,Froozo,3.2
+715,user_072_abc,104789,Keventers,4.9
+716,user_072_abc,74842,Radhey Lal Premium Sweets,3.6
+717,user_072_abc,77625,Brindavan,3.5
+718,user_072_abc,90440,The Bawarchi khana,5.1
+719,user_072_abc,83423,Chinese Hut,3.2
+720,user_073_abc,102569,Aadab-e-Dastarkhwan,3.1
+721,user_073_abc,78592,Pizza Cave,5.1
+722,user_073_abc,102064,Aahaar,2.5
+723,user_073_abc,74651,Dabbu Veg,4.6
+724,user_073_abc,97099,Milan Restaurant,4.3
+725,user_073_abc,94603,Nescafe,3.5
+726,user_073_abc,80336,ABC Muradabadi Chicken Biryani,3.6
+727,user_073_abc,91851,Scorpio Club,4.7
+728,user_073_abc,102291,Pizza Hut,4.2
+729,user_073_abc,82668,The Archeria,4.0
+730,user_074_abc,75083,Jux Pux,5.0
+731,user_074_abc,83530,Crackerjacks Restaurant & Cafe,3.8
+732,user_074_abc,86108,Kalika Choolha,3.5
+733,user_074_abc,79329,Balle Balle Delhi Wale Soya Chaap Zone,3.7
+734,user_074_abc,75230,Food Paradise,4.4
+735,user_074_abc,89200,Trinkster,4.1
+736,user_074_abc,102345,Chahat Biryani,2.9
+737,user_074_abc,98239,Pizza Nawabi Fast Fod,4.9
+738,user_074_abc,97703,Champaran Meat House,4.3
+739,user_074_abc,91650,Milan Kachori Bhandar,4.4
+740,user_075_abc,75952,Deraa,2.9
+741,user_075_abc,88712,Cafe Tea Bubbles,3.3
+742,user_075_abc,76384,Get Desserted,2.6
+743,user_075_abc,79883,Rohit Chat,4.7
+744,user_075_abc,90504,Nawabi Castle,3.9
+745,user_075_abc,93193,Trups Restro Club,3.7
+746,user_075_abc,102229,Naushijaan,3.0
+747,user_075_abc,90054,Tambulam Paan Cafe,3.5
+748,user_075_abc,82426,Shri Ganpati Mishthan Bhandar,2.6
+749,user_075_abc,86834,Bombay Pav Bhaji,4.3
+750,user_076_abc,74366,Good Bakery,2.9
+751,user_076_abc,88054,Chowdhury Sweet House,2.6
+752,user_076_abc,96564,Kakori Grill With Desi Tadka,3.1
+753,user_076_abc,101591,Foodie Baba,5.1
+754,user_076_abc,94292,Ikka,4.9
+755,user_076_abc,95888,Agarwal Sweets,3.6
+756,user_076_abc,83802,Todos Pizza Cafe,4.9
+757,user_076_abc,76692,Joey'z Cafe,3.7
+758,user_076_abc,78205,The Food Oasis,4.3
+759,user_076_abc,83423,Chinese Hut,3.5
+760,user_077_abc,76384,Get Desserted,4.9
+761,user_077_abc,78973,Southern Spices,4.8
+762,user_077_abc,91712,Fusion Foods,5.0
+763,user_077_abc,74842,Radhey Lal Premium Sweets,2.6
+764,user_077_abc,84436,The House Of Cakes,4.5
+765,user_077_abc,77745,Shree Naresh Baker's,5.0
+766,user_077_abc,78746,Indulge,3.4
+767,user_077_abc,81856,Heaven Can Wait,4.3
+768,user_077_abc,78353,Martini Lounge & Fine Dine,4.0
+769,user_077_abc,98466,Gupta Ji Ke Thandey Dahi Bade,3.1
+770,user_078_abc,91524,Chitchor Mithai Shop,3.1
+771,user_078_abc,86141,Matka Masala,4.7
+772,user_078_abc,77891,JOY The Cake Studio by Anuraka Sircar,4.1
+773,user_078_abc,98382,Exer Club,3.5
+774,user_078_abc,81275,Annapurna Sweets,2.6
+775,user_078_abc,77441,Handi Biryani,5.0
+776,user_078_abc,96592,Ajay Ke Mashhoor Khaste,2.7
+777,user_078_abc,104883,Kitchen 11,4.2
+778,user_078_abc,85271,Giza - Club Momentz,2.6
+779,user_078_abc,82311,Aabshaar - Ranbirs,2.7
+780,user_079_abc,76499,Khatirdari Multicuisine Restaurant,4.6
+781,user_079_abc,83560,Nanaks Muskaan Mithai Bhandar,4.3
+782,user_079_abc,203592,South Indian Raman Dosa,4.2
+783,user_079_abc,76145,Night Grill,4.5
+784,user_079_abc,85818,Raj Nandani Kulcha Corner,4.1
+785,user_079_abc,85062,BIG CHEESY BURGER,2.9
+786,user_079_abc,83723,Baskin Robbins,3.6
+787,user_079_abc,93268,Klub Bigg Boss,2.6
+788,user_079_abc,74477,Burger Point,3.1
+789,user_079_abc,89246,Alam Moradabadi Biryani,3.6
+790,user_080_abc,78865,Azad Dairy & Sweets,4.6
+791,user_080_abc,98484,The Fat Dumpling,3.9
+792,user_080_abc,78807,Delicioso Kitchen,3.4
+793,user_080_abc,102701,Deva Food Mart,3.1
+794,user_080_abc,88275,Gyan Vaishnav Hotel,3.3
+795,user_080_abc,102179,Maa Durga Restaurant,5.1
+796,user_080_abc,80107,Purab Pashchim Restaurant,3.4
+797,user_080_abc,82136,Le Cafe - Skyotel,3.1
+798,user_080_abc,91210,The Mughal Taj,5.0
+799,user_080_abc,101928,Mast Bite,2.9
+800,user_081_abc,88119,Matchpoint Restaurant - Maple Leaf,3.2
+801,user_081_abc,75139,Prem Non Veg Point,2.6
+802,user_081_abc,84045,Pama Fast Food & Restaurant,2.9
+803,user_081_abc,104821,Brew Bakes Cafe & Bistro,4.1
+804,user_081_abc,89500,Cake And Cuddles,5.1
+805,user_081_abc,101711,Rattilals,3.7
+806,user_081_abc,81957,Hot Spoons,3.7
+807,user_081_abc,77290,Tanisha Restaurant,3.0
+808,user_081_abc,88490,Kanha Bhog,4.8
+809,user_081_abc,83094,Tamil Nadu South Indian Dosa,2.6
+810,user_082_abc,100735,Mughlai Huttz,2.6
+811,user_082_abc,99748,Shri Mohan Bhog Dugdh Bhandar,4.6
+812,user_082_abc,103169,Raj & Raj,2.8
+813,user_082_abc,80589,King's Bakery And Fast Foods,3.2
+814,user_082_abc,93812,Exchange RestoBar,5.0
+815,user_082_abc,103136,The Jail Cafe,5.0
+816,user_082_abc,79998,Caprice - Radisson Lucknow City Center,3.5
+817,user_082_abc,82964,New Pizza Yum,3.9
+818,user_082_abc,82173,Hotspot Restaurant,3.5
+819,user_082_abc,85495,Barbeque Family Restaurant,4.8
+820,user_083_abc,86870,Shri Sahu Khasta Corner,3.1
+821,user_083_abc,87305,Metro View Restaurant,3.4
+822,user_083_abc,92593,Grand Infinity,4.5
+823,user_083_abc,95587,Pakeeza Juice Corner,4.0
+824,user_083_abc,97807,Ahuna Meat,3.2
+825,user_083_abc,75662,Shukla Chaat House,5.0
+826,user_083_abc,91664,Kanha Kunj Foods,5.0
+827,user_083_abc,99651,Not Veg Point,4.7
+828,user_083_abc,91871,Cafe Delight,5.0
+829,user_083_abc,92505,Rahim Hotel,2.7
+830,user_084_abc,95544,Chanakya Barfi Bhoolok Ka Amrit Matha,5.0
+831,user_084_abc,84286,Sunny Veg Corner,5.0
+832,user_084_abc,104547,Mr.James,2.8
+833,user_084_abc,86233,Big Bite Lucknow,4.4
+834,user_084_abc,92505,Rahim Hotel,3.2
+835,user_084_abc,74668,Paratha's,4.8
+836,user_084_abc,84015,Prema Delight,2.7
+837,user_084_abc,88356,Mintaka Grills,3.9
+838,user_084_abc,76224,Royalz Pepper,3.2
+839,user_084_abc,84258,Kozy Korner,4.6
+840,user_085_abc,79495,Khushi Fast Food Center,3.7
+841,user_085_abc,102669,Al-Baike Restaurant,2.9
+842,user_085_abc,94543,Culture Cafe & Resto,3.8
+843,user_085_abc,88614,Cube Bar - Casaya Inn,3.8
+844,user_085_abc,79479,Cafe Wrappers,4.1
+845,user_085_abc,82640,Chai Da Adda,4.5
+846,user_085_abc,104668,Hashtag CafÃÂ©,3.7
+847,user_085_abc,74575,Hotel Charminar,4.6
+848,user_085_abc,93193,Trups Restro Club,2.7
+849,user_085_abc,89261,Anjana Restaurant & Caterer,4.8
+850,user_086_abc,93160,Hapley Fast Food Center,3.1
+851,user_086_abc,103002,Cafe WTF,2.6
+852,user_086_abc,78643,The Ritz Restaurant,3.9
+853,user_086_abc,78592,Pizza Cave,3.5
+854,user_086_abc,86345,TT's Jhol Jhaal,2.6
+855,user_086_abc,104804,Honey Buns,2.9
+856,user_086_abc,201968,Indian Al-baik.com,2.9
+857,user_086_abc,79609,Grand Patio - Hotel Savvy Grand,3.8
+858,user_086_abc,87373,The Eating Booth,3.5
+859,user_086_abc,102569,Aadab-e-Dastarkhwan,2.7
+860,user_087_abc,96927,Spicy Bytes,4.1
+861,user_087_abc,92770,Labhedi Kulfi,4.7
+862,user_087_abc,81570,Sangam Restaurant,3.5
+863,user_087_abc,82949,Globe Cafe,2.6
+864,user_087_abc,91292,Lucknow Central Multicuisine Restaurant & Banquet,5.1
+865,user_087_abc,103017,Raj Sweet House,3.5
+866,user_087_abc,101854,Pind Balluchi,4.1
+867,user_087_abc,80472,Punjabi Dhaba,3.5
+868,user_087_abc,76336,Wood Smoked-Woodfired Pizza,3.7
+869,user_087_abc,78428,Chatkhare Bitez,4.1
+870,user_088_abc,76285,Dalchini Huts,3.0
+871,user_088_abc,78353,Martini Lounge & Fine Dine,4.7
+872,user_088_abc,84436,The House Of Cakes,4.6
+873,user_088_abc,103383,The London Shakes & CafÃÂ©,3.8
+874,user_088_abc,102500,Nepal Chinese Centre,2.8
+875,user_088_abc,76793,Nukkad Cafe,4.4
+876,user_088_abc,79564,Blue Moon,4.7
+877,user_088_abc,77094,Food Point,5.1
+878,user_088_abc,104209,Kava Restaurant - Fairfield by Marriott,3.4
+879,user_088_abc,76483,Richi Rich,4.0
+880,user_089_abc,104898,Spicy Hub,2.6
+881,user_089_abc,102375,The Kalika Hut,2.9
+882,user_089_abc,92170,De Mannat Cafe N Lounge,4.4
+883,user_089_abc,98239,Pizza Nawabi Fast Fod,2.7
+884,user_089_abc,83301,Tastes Of Bengal,3.9
+885,user_089_abc,97356,Zaika E Awadh,3.2
+886,user_089_abc,81725,Gouri Eating Point,4.0
+887,user_089_abc,78782,Sippers,3.5
+888,user_089_abc,99933,Sardar Hotel,4.3
+889,user_089_abc,104653,Kali Mirch,3.2
+890,user_090_abc,81976,Kechup Fast Food,3.2
+891,user_090_abc,94558,Gopiz,4.8
+892,user_090_abc,81481,Melange - The Grand JBR,3.2
+893,user_090_abc,201804,Secret Factory,3.1
+894,user_090_abc,76776,Kake Da Hotel,2.5
+895,user_090_abc,77905,Cakes And Bakes,2.9
+896,user_090_abc,88021,Biryani Point,2.5
+897,user_090_abc,99789,Bajpayee Kachodi Bhandar,3.2
+898,user_090_abc,76908,Sainik Bhojanalaya,4.2
+899,user_090_abc,93283,Mr.Chowmein,5.1
+900,user_091_abc,88199,The Beanstalk Cafe,2.6
+901,user_091_abc,102879,Ttamaasha Bistro Bar,3.3
+902,user_091_abc,95774,Degchi,4.3
+903,user_091_abc,86801,Chopstix,3.3
+904,user_091_abc,84521,Daddy Chicken Soup,4.5
+905,user_091_abc,92758,Citrus Cafe - Lemon Tree,4.4
+906,user_091_abc,81461,Yo Dhaba,4.4
+907,user_091_abc,103118,Mint Lounge - Hotel Arif Castles,4.9
+908,user_091_abc,88337,Al Bake,3.2
+909,user_091_abc,79139,Lukjin - Hyatt Regency Lucknow,2.6
+910,user_092_abc,86592,TandooriXPress,2.9
+911,user_092_abc,74594,Shere E Punjab,3.2
+912,user_092_abc,201145,Moti Mahal Delux,4.4
+913,user_092_abc,86392,Siya's Kitchen,3.2
+914,user_092_abc,78304,Meal59,4.3
+915,user_092_abc,97690,Shubhkamna Caterers,4.4
+916,user_092_abc,82341,Aman Bhojnalay And Fast Food,5.1
+917,user_092_abc,86966,The Kitchen Story,4.8
+918,user_092_abc,95984,Chaat Darbar,4.7
+919,user_092_abc,74420,Ram Asrey,3.1
+920,user_093_abc,97161,Al Farhaan Al Faizaan Corner,4.0
+921,user_093_abc,78138,Garden Grille & Bar - Hilton Garden Inn,4.9
+922,user_093_abc,96394,New Globe Traders,3.5
+923,user_093_abc,99147,Shree Nannd Mishthaan,3.9
+924,user_093_abc,79846,Roti Boti Tarka,4.1
+925,user_093_abc,92958,Up 32 The Food Stop,3.6
+926,user_093_abc,78264,The Mountain Cafe,3.9
+927,user_093_abc,75213,Radhey Lal Sweets,4.1
+928,user_093_abc,87433,The Lazzat nonveg corner,2.7
+929,user_093_abc,104945,Jahangir Hotel,3.0
+930,user_094_abc,101455,Free Spirit,2.6
+931,user_094_abc,75197,Sweet Luscious,2.6
+932,user_094_abc,95477,Food Galaxy,3.7
+933,user_094_abc,74516,The Ranch,3.2
+934,user_094_abc,77951,Chef's Kitchen,4.1
+935,user_094_abc,99855,Cafe Repertwahr,4.4
+936,user_094_abc,89352,Saraswati Sweets And Food Court,2.9
+937,user_094_abc,84571,Brio Art House & Cafe - Ramada Lucknow,4.1
+938,user_094_abc,103218,D Pizza Club,4.2
+939,user_094_abc,79006,The Terrace Grill - La Place Sarovar Portico,2.9
+940,user_095_abc,101030,Sign In Cafe,3.8
+941,user_095_abc,76069,Bhole Chature,5.1
+942,user_095_abc,78138,Garden Grille & Bar - Hilton Garden Inn,2.9
+943,user_095_abc,86890,Little Bunny Baker's Hub,3.5
+944,user_095_abc,78944,High Point,3.0
+945,user_095_abc,93439,Kanishka Mishthan,3.6
+946,user_095_abc,88134,Easy Celebrations,3.9
+947,user_095_abc,82004,Hide n Seek,2.7
+948,user_095_abc,74764,Shree Prem Mishtaan Bhandar,2.6
+949,user_095_abc,77725,Noodle Station,5.1
+950,user_096_abc,104744,The Pavilion,2.9
+951,user_096_abc,97175,Tandoori Rasoi,4.9
+952,user_096_abc,92720,Sher-E-Punjab,3.7
+953,user_096_abc,94292,Ikka,4.1
+954,user_096_abc,83094,Tamil Nadu South Indian Dosa,4.4
+955,user_096_abc,77206,Madras Restaurant,2.7
+956,user_096_abc,86758,Funky Bite,3.0
+957,user_096_abc,84506,Originals Blends & More,2.9
+958,user_096_abc,96867,Petuks Kitchen,3.9
+959,user_096_abc,95091,Al Bake Meals-Fryday,2.6
+960,user_097_abc,80654,Cosme Multi Cuisine Restaurant - Hotel Levana Suites,3.9
+961,user_097_abc,101641,Cafe By Default,3.8
+962,user_097_abc,76372,Earthen Oven - Fortune Park BBD,3.2
+963,user_097_abc,82057,Ritz Continental,3.2
+964,user_097_abc,98269,B.P.Royal Food,3.9
+965,user_097_abc,82964,New Pizza Yum,2.5
+966,user_097_abc,84892,The Saffron Restaurant,4.2
+967,user_097_abc,92739,Resca Restaurant,3.6
+968,user_097_abc,104363,Cheer Peer - The Metropolitan Club,4.7
+969,user_097_abc,84045,Pama Fast Food & Restaurant,4.2
+970,user_098_abc,83265,Al Baik Xpress,3.4
+971,user_098_abc,91038,Purvanchal Mutton Do Pyaza,4.4
+972,user_098_abc,84692,Blue Bell sweets,4.4
+973,user_098_abc,77936,Bun Makkhan Chai,3.3
+974,user_098_abc,80107,Purab Pashchim Restaurant,4.1
+975,user_098_abc,89352,Saraswati Sweets And Food Court,3.4
+976,user_098_abc,74594,Shere E Punjab,4.5
+977,user_098_abc,80589,King's Bakery And Fast Foods,3.2
+978,user_098_abc,84045,Pama Fast Food & Restaurant,2.6
+979,user_098_abc,78560,Olive Garden,3.9
+980,user_099_abc,84729,Sai Da Dhaba,2.5
+981,user_099_abc,103118,Mint Lounge - Hotel Arif Castles,3.9
+982,user_099_abc,101928,Mast Bite,2.8
+983,user_099_abc,91731,Sapna Sweets,4.9
+984,user_099_abc,74985,Sardar Ji Ke Mashoor Chole Bhature,4.6
+985,user_099_abc,88405,Wok N Roll,3.8
+986,user_099_abc,105022,Mouth Wide Shut,2.9
+987,user_099_abc,80490,Sanjha Chulha,4.6
+988,user_099_abc,88054,Chowdhury Sweet House,4.4
+989,user_099_abc,82998,Dezzerts,4.1
+990,user_0100_abc,75912,Bahen Ki Rasoi,2.6
+991,user_0100_abc,102536,Kukku Da Dhaba,4.3
+992,user_0100_abc,92770,Labhedi Kulfi,2.6
+993,user_0100_abc,90608,Hooki Dooki,2.8
+994,user_0100_abc,102635,Sardar Ji Ke Mashoor Chhole Bhature,2.6
+995,user_0100_abc,89370,Mughlai Wala,4.3
+996,user_0100_abc,93650,RED FRY CHICKEN,3.1
+997,user_0100_abc,85046,Tadka India Da,4.8
+998,user_0100_abc,95984,Chaat Darbar,2.9
+999,user_0100_abc,88712,Cafe Tea Bubbles,2.8
+1000,user_0101_abc,85561,Asia Seven Express,3.8
+1001,user_0101_abc,76224,Royalz Pepper,3.9
+1002,user_0101_abc,80257,UP's - Hyatt Regency Lucknow,3.7
+1003,user_0101_abc,104668,Hashtag CafÃÂ©,4.1
+1004,user_0101_abc,101837,Bombay Remix,4.3
+1005,user_0101_abc,93115,New Baba Family Restaurant,4.4
+1006,user_0101_abc,90504,Nawabi Castle,2.9
+1007,user_0101_abc,82809,Cafe Swag,3.9
+1008,user_0101_abc,99902,Mahalaxmi Sweets,2.6
+1009,user_0101_abc,92593,Grand Infinity,2.5
+1010,user_0102_abc,103353,Aura Lounge & Bar,3.8
+1011,user_0102_abc,199918,Grandson of Tunday Kababi,5.0
+1012,user_0102_abc,84166,Walnut,4.7
+1013,user_0102_abc,85677,The Corner Stone,3.6
+1014,user_0102_abc,79006,The Terrace Grill - La Place Sarovar Portico,4.9
+1015,user_0102_abc,88614,Cube Bar - Casaya Inn,3.1
+1016,user_0102_abc,87265,Radiance Restro & Cafe,2.6
+1017,user_0102_abc,100800,Panditji Ke Dehati Rasgulle,4.8
+1018,user_0102_abc,87113,The Playhouse Cafe,4.7
+1019,user_0102_abc,75938,Kabila,4.7
+1020,user_0103_abc,78286,Shree Ram Ram Restaurant,4.1
+1021,user_0103_abc,77319,Jain Chat,2.8
+1022,user_0103_abc,87433,The Lazzat nonveg corner,3.5
+1023,user_0103_abc,86725,Tiffilo Non Veg Kitchen,4.2
+1024,user_0103_abc,82622,TADKA,4.0
+1025,user_0103_abc,91323,Roast And Gravy,4.6
+1026,user_0103_abc,102635,Sardar Ji Ke Mashoor Chhole Bhature,3.1
+1027,user_0103_abc,83190,Roll Wala.Com,4.9
+1028,user_0103_abc,74842,Radhey Lal Premium Sweets,2.7
+1029,user_0103_abc,77926,Sheikh Chilli,4.0
+1030,user_0104_abc,87557,Albela Restaurant,4.6
+1031,user_0104_abc,75517,14Greens,2.7
+1032,user_0104_abc,94086,The Palms,5.1
+1033,user_0104_abc,75539,Mr. Sandwich,3.0
+1034,user_0104_abc,85176,Fud Express,2.6
+1035,user_0104_abc,94292,Ikka,4.0
+1036,user_0104_abc,91146,Chanakya Laddoo,4.4
+1037,user_0104_abc,201888,Al-Baike.Net,3.0
+1038,user_0104_abc,77022,Noodle Bar,4.6
+1039,user_0104_abc,95183,Baba Lassi,3.2
+1040,user_0105_abc,96564,Kakori Grill With Desi Tadka,4.3
+1041,user_0105_abc,76943,Prakash Kulfi,2.9
+1042,user_0105_abc,97807,Ahuna Meat,2.5
+1043,user_0105_abc,90392,The Greenhouse Cafe,4.3
+1044,user_0105_abc,96814,Eaters,2.5
+1045,user_0105_abc,101455,Free Spirit,4.2
+1046,user_0105_abc,77607,Walk This Way,4.8
+1047,user_0105_abc,78286,Shree Ram Ram Restaurant,4.1
+1048,user_0105_abc,92676,Punjabi Dhaba Special,3.3
+1049,user_0105_abc,88958,Old Cozy Corner,3.4
+1050,user_0106_abc,86042,Mishti,2.9
+1051,user_0106_abc,86042,Mishti,2.7
+1052,user_0106_abc,89064,Jordan Food Cell,5.0
+1053,user_0106_abc,79479,Cafe Wrappers,4.6
+1054,user_0106_abc,81423,Grand Son Of Tunday Kababi,4.6
+1055,user_0106_abc,97402,The Tea Factory,4.5
+1056,user_0106_abc,79768,SautÃÂ©,3.7
+1057,user_0106_abc,77221,Spice Garden,3.2
+1058,user_0106_abc,86741,The Cave's Cafe,4.7
+1059,user_0106_abc,94839,Morga Crispy Chicken,5.1
+1060,user_0107_abc,84729,Sai Da Dhaba,3.1
+1061,user_0107_abc,82243,The Indian Table - Hotel Vaibhav Inn,2.8
+1062,user_0107_abc,201186,London Shakes & CafÃÂ©,3.9
+1063,user_0107_abc,88976,Hot Platter,3.2
+1064,user_0107_abc,88550,Choose Your Samosa,3.5
+1065,user_0107_abc,82294,Venggie,4.2
+1066,user_0107_abc,102093,Planters Tea Bar & Book Cafe,3.7
+1067,user_0107_abc,84116,Spicy Kitchen,4.6
+1068,user_0107_abc,74903,Pankaj Non Veg Point,3.6
+1069,user_0107_abc,76994,The Garage Cafe Co.,3.4
+1070,user_0108_abc,82191,Food Chowk,4.8
+1071,user_0108_abc,104789,Keventers,4.1
+1072,user_0108_abc,85628,Lazeez Restaurant,4.9
+1073,user_0108_abc,93356,Veg Kitchen,3.8
+1074,user_0108_abc,104271,Falak Numa Restaurant - Hotel Clarks Avadh,3.0
+1075,user_0108_abc,95676,Shri Lalji Sweets,4.7
+1076,user_0108_abc,101293,Packing Shacking,2.7
+1077,user_0108_abc,87321,Bhukkhad.com,5.1
+1078,user_0108_abc,76565,AFC,5.0
+1079,user_0108_abc,95053,Hangout Cafe,4.1
+1080,user_0109_abc,84240,Khana Khajana,3.0
+1081,user_0109_abc,76499,Khatirdari Multicuisine Restaurant,3.3
+1082,user_0109_abc,93749,Cafe 32 - Hotel India Awadh,3.9
+1083,user_0109_abc,101475,Jai Mata Di Lassi Bhandar,2.6
+1084,user_0109_abc,77653,Vintage Village,3.6
+1085,user_0109_abc,80621,Punjab De Mashoor Chole Bhature,4.6
+1086,user_0109_abc,82057,Ritz Continental,3.4
+1087,user_0109_abc,81659,Vaango!,4.6
+1088,user_0109_abc,94558,Gopiz,4.1
+1089,user_0109_abc,93176,Caloriewala By Chef AJ,4.5
+1090,user_0110_abc,87228,Raj Biryani Corner,4.4
+1091,user_0110_abc,90088,Al-Bangs,4.8
+1092,user_0110_abc,92195,Vintage Bliss Cafe,4.9
+1093,user_0110_abc,82668,The Archeria,4.6
+1094,user_0110_abc,91712,Fusion Foods,2.6
+1095,user_0110_abc,80853,Pandit Chat Corner,3.4
+1096,user_0110_abc,77842,Castle Black,4.3
+1097,user_0110_abc,81389,The Table,3.3
+1098,user_0110_abc,89712,Al - Baik,3.6
+1099,user_0110_abc,75875,Cafe Hummingbird,4.2
+1100,user_0111_abc,89834,Shri Mohan Sweets,4.7
+1101,user_0111_abc,81155,GrubHub Tiffin Services,4.8
+1102,user_0111_abc,77425,SOLD: Bar Exchange,3.2
+1103,user_0111_abc,97053,Hot Spicy,4.8
+1104,user_0111_abc,81809,Laddoo Chanakya,4.8
+1105,user_0111_abc,81757,Skyline - Hotel India Awadh,2.7
+1106,user_0111_abc,85312,Scossaa,3.0
+1107,user_0111_abc,90319,Matlabi PaanWaala,3.3
+1108,user_0111_abc,97690,Shubhkamna Caterers,4.9
+1109,user_0111_abc,85710,Aangan,3.8
+1110,user_0112_abc,89312,Chalte Firte Momos & Special Food,3.1
+1111,user_0112_abc,84080,Wings Of Fire,4.6
+1112,user_0112_abc,86108,Kalika Choolha,3.4
+1113,user_0112_abc,84951,Wok In,4.0
+1114,user_0112_abc,102080,Sky Bar - Renaissance Lucknow Hotel,2.7
+1115,user_0112_abc,102815,Capoor & Sons,3.3
+1116,user_0112_abc,102944,New Gyani Ji Ka Dhaba,3.1
+1117,user_0112_abc,75735,Art of Chaap,4.5
+1118,user_0112_abc,83110,The Vegi Hub,4.4
+1119,user_0112_abc,74438,Nawabeen's Awadhi Restaurant,4.6
+1120,user_0113_abc,84858,Project Biryani Kolkata,3.2
+1121,user_0113_abc,80946,Bhargava Restaurant,4.8
+1122,user_0113_abc,86741,The Cave's Cafe,3.2
+1123,user_0113_abc,86219,Ustad Non Veg Point,3.9
+1124,user_0113_abc,83236,Tript Aahar,3.6
+1125,user_0113_abc,81940,Sahu Kathi Chicken Egg Roll Wala,2.6
+1126,user_0113_abc,104333,Momos Of Nainital,2.6
+1127,user_0113_abc,83996,The Pacific Hut,3.0
+1128,user_0113_abc,100904,KGN Restaurant,4.2
+1129,user_0113_abc,87623,Gokul,4.4
+1130,user_0114_abc,84586,Talab The Chai Junction,2.6
+1131,user_0114_abc,88676,Shubh Shagun,2.6
+1132,user_0114_abc,78592,Pizza Cave,2.6
+1133,user_0114_abc,86629,Gilori - The Taste of Nawaabs,3.0
+1134,user_0114_abc,89261,Anjana Restaurant & Caterer,2.6
+1135,user_0114_abc,90682,The Grill,4.8
+1136,user_0114_abc,86834,Bombay Pav Bhaji,4.6
+1137,user_0114_abc,76285,Dalchini Huts,2.7
+1138,user_0114_abc,99855,Cafe Repertwahr,4.2
+1139,user_0114_abc,102716,Break Point Dhaba,2.5
+1140,user_0115_abc,92083,Dayal Kulfi,4.3
+1141,user_0115_abc,103055,Narrows,3.7
+1142,user_0115_abc,101943,New Lucknow Kitchen,4.4
+1143,user_0115_abc,83140,Raina's Kitchen,5.1
+1144,user_0115_abc,98269,B.P.Royal Food,3.9
+1145,user_0115_abc,79250,Roti Unlimited,2.8
+1146,user_0115_abc,101873,Be The Beer,4.6
+1147,user_0115_abc,82792,Madhurima Veg,5.0
+1148,user_0115_abc,92658,Snooks of Snookers,3.2
+1149,user_0115_abc,77759,Mini Restaurant,4.5
+1150,user_0116_abc,75938,Kabila,4.4
+1151,user_0116_abc,87803,NG Fast Food,3.5
+1152,user_0116_abc,91276,Moti Mahal Sweets,3.9
+1153,user_0116_abc,100235,Raj Luxmi,4.8
+1154,user_0116_abc,98717,Vansh Rajput Veg Counter,4.0
+1155,user_0116_abc,79736,Baked Brown,4.7
+1156,user_0116_abc,89464,Groove- SS Grandeur Hotel,2.8
+1157,user_0116_abc,81092,Step In Cafe,2.7
+1158,user_0116_abc,81239,Al Baike.cook,2.7
+1159,user_0116_abc,93883,Kesar Bhog,4.7
+1160,user_0117_abc,86266,Royale Zayka,2.6
+1161,user_0117_abc,89149,Hookaurant Lounge & Restaurant,3.2
+1162,user_0117_abc,75562,Siyaram Sweets,2.7
+1163,user_0117_abc,78876,Parampara Sweets,3.8
+1164,user_0117_abc,80092,Kerala Cafe,3.8
+1165,user_0117_abc,84729,Sai Da Dhaba,4.2
+1166,user_0117_abc,86042,Mishti,4.1
+1167,user_0117_abc,87669,Crossroads - Cafe And Lounge,2.6
+1168,user_0117_abc,102832,The Chocolate Heaven,3.9
+1169,user_0117_abc,90908,Barkat Barbeque & Mughlai Food,4.6
+1170,user_0118_abc,79548,Foodistan,4.7
+1171,user_0118_abc,99748,Shri Mohan Bhog Dugdh Bhandar,3.4
+1172,user_0118_abc,83495,Sheesha Moroccan Lounge - Deep Palace,2.8
+1173,user_0118_abc,80490,Sanjha Chulha,3.4
+1174,user_0118_abc,81856,Heaven Can Wait,4.2
+1175,user_0118_abc,97690,Shubhkamna Caterers,3.3
+1176,user_0118_abc,80527,Zinger Restaurant,3.4
+1177,user_0118_abc,104883,Kitchen 11,4.5
+1178,user_0118_abc,83204,Shake Wich,4.3
+1179,user_0118_abc,104883,Kitchen 11,2.8
+1180,user_0119_abc,86298,Saraca- Lebua Lucknow,2.6
+1181,user_0119_abc,86187,Sainik Restra The Dhaba,3.1
+1182,user_0119_abc,94713,Hotel Impact,3.6
+1183,user_0119_abc,86709,SS Bakers Cake Wala,4.3
+1184,user_0119_abc,86999,CafÃÂ© One 'O' One,4.6
+1185,user_0119_abc,101278,The Urban Dhaba,3.5
+1186,user_0119_abc,83110,The Vegi Hub,5.0
+1187,user_0119_abc,91128,Chinese Treat & Cafe,3.4
+1188,user_0119_abc,100873,Royal Cafe - Royal Inn,3.8
+1189,user_0119_abc,94219,Mahapadam Sweets & Food,3.5
+1190,user_0120_abc,82004,Hide n Seek,4.3
+1191,user_0120_abc,200536,Al Baike Restaurant,4.4
+1192,user_0120_abc,94120,Firdaus - Deep Palace,5.1
+1193,user_0120_abc,85428,Iron Grill,4.7
+1194,user_0120_abc,87543,Husariya Darbaar,3.1
+1195,user_0120_abc,89725,Tangy Twists,2.7
+1196,user_0120_abc,100189,Sonu Monu Chicken Tikka Corner,4.2
+1197,user_0120_abc,104789,Keventers,3.7
+1198,user_0120_abc,76384,Get Desserted,2.6
+1199,user_0120_abc,97246,Flavours of Rajasthan,4.8
+1200,user_0121_abc,78373,Holy Monkey,3.5
+1201,user_0121_abc,103002,Cafe WTF,5.0
+1202,user_0121_abc,85628,Lazeez Restaurant,4.7
+1203,user_0121_abc,84130,Subcontinent,3.5
+1204,user_0121_abc,80175,Kebabishk,3.8
+1205,user_0121_abc,75441,BARBEQUE Non Veg Restaurant,3.5
+1206,user_0121_abc,95888,Agarwal Sweets,4.4
+1207,user_0121_abc,96994,AL-BAKE.IN,5.0
+1208,user_0121_abc,90392,The Greenhouse Cafe,4.0
+1209,user_0121_abc,94791,Eat Street,3.1
+1210,user_0122_abc,83642,Rashmi sweets,3.5
+1211,user_0122_abc,100982,Lalla Biryani,5.0
+1212,user_0122_abc,99693,Mama Bhojanalaya,3.0
+1213,user_0122_abc,100904,KGN Restaurant,4.0
+1214,user_0122_abc,80304,Milkshake Factory,4.7
+1215,user_0122_abc,77905,Cakes And Bakes,3.3
+1216,user_0122_abc,84603,Sri Balaji Kitchen,4.0
+1217,user_0122_abc,101406,Colours by Royal Cafe - Royal Inn,3.3
+1218,user_0122_abc,84759,Non Veg Corner & Veg Fast Food,4.0
+1219,user_0122_abc,92534,Wahid Biryani,3.4
+1220,user_0123_abc,104977,EOS Bar & Bistro- Hotel Levana,3.3
+1221,user_0123_abc,93312,Shaolin Golden Leaf,4.3
+1222,user_0123_abc,95888,Agarwal Sweets,2.8
+1223,user_0123_abc,74947,The G.T. Road,4.6
+1224,user_0123_abc,77573,Hideout Cafe,3.1
+1225,user_0123_abc,88004,Bukhara Grill,3.0
+1226,user_0123_abc,88712,Cafe Tea Bubbles,3.9
+1227,user_0123_abc,81829,Mr. Broast,4.3
+1228,user_0123_abc,104363,Cheer Peer - The Metropolitan Club,4.8
+1229,user_0123_abc,75893,Balaji Bhojnalay,2.5
+1230,user_0124_abc,200495,Aryan Familys Delight,3.1
+1231,user_0124_abc,85295,Shiv Bhandar,3.8
+1232,user_0124_abc,91664,Kanha Kunj Foods,3.3
+1233,user_0124_abc,86494,Maharaja Restaurant,3.7
+1234,user_0124_abc,75804,Sky Mirage,2.8
+1235,user_0124_abc,102015,Jannat-Dayal Paradise,2.9
+1236,user_0124_abc,90487,Al Baik.com,4.6
+1237,user_0124_abc,75101,The American Pizza,4.5
+1238,user_0124_abc,79949,Jumboking,4.5
+1239,user_0124_abc,89261,Anjana Restaurant & Caterer,3.7
+1240,user_0125_abc,91664,Kanha Kunj Foods,2.6
+1241,user_0125_abc,102730,New Chik Chik Chicken Corner,3.9
+1242,user_0125_abc,77087,Canaria Restro And Lounge,3.9
+1243,user_0125_abc,102375,The Kalika Hut,4.1
+1244,user_0125_abc,99425,SFC,4.1
+1245,user_0125_abc,82040,The VIF Cafe,4.3
+1246,user_0125_abc,95756,One Way,4.4
+1247,user_0125_abc,85596,Aaja Khaja,4.0
+1248,user_0125_abc,92626,A1-Bake.com,4.0
+1249,user_0125_abc,84792,Standard Foods,3.8
+1250,user_0126_abc,93389,Kebab & Kurry,5.1
+1251,user_0126_abc,84538,Balaji Grand,5.0
+1252,user_0126_abc,100873,Royal Cafe - Royal Inn,3.0
+1253,user_0126_abc,90811,Chilli Pistals,4.9
+1254,user_0126_abc,76467,Cafe Bola Loca,2.9
+1255,user_0126_abc,81187,Desi kitchen,3.9
+1256,user_0126_abc,74385,Sepia - Renaissance Lucknow Hotel,4.7
+1257,user_0126_abc,84279,Drooly's  App Ka Bawarchi,4.4
+1258,user_0126_abc,91089,Love Bite,2.9
+1259,user_0126_abc,79899,Terrace By Oak'S,4.6
+1260,user_0127_abc,84792,Standard Foods,2.5
+1261,user_0127_abc,102243,The Veg Express,5.0
+1262,user_0127_abc,83642,Rashmi sweets,3.0
+1263,user_0127_abc,96266,Arora Jee Da Non Veg Point,4.3
+1264,user_0127_abc,77022,Noodle Bar,2.6
+1265,user_0127_abc,90959,Pop-Eye's Pizza,4.6
+1266,user_0127_abc,83387,Akram Biryani House,4.2
+1267,user_0127_abc,96802,Swagatam,2.8
+1268,user_0127_abc,102486,Percussion,4.2
+1269,user_0127_abc,95558,Shri Balaji ka Dhaba,3.2
+1270,user_0128_abc,96814,Eaters,4.8
+1271,user_0128_abc,84729,Sai Da Dhaba,3.6
+1272,user_0128_abc,91731,Sapna Sweets,5.1
+1273,user_0128_abc,85162,Lucknowi Kabab,3.4
+1274,user_0128_abc,75323,Garden Bakery,2.9
+1275,user_0128_abc,82688,The Hungry Momo Cafe,4.8
+1276,user_0128_abc,88454,Ram Narayan Tiwari & Sons,5.1
+1277,user_0128_abc,98466,Gupta Ji Ke Thandey Dahi Bade,4.8
+1278,user_0128_abc,90696,Jeewan Saathi Restaurant,3.7
+1279,user_0128_abc,90780,Hotel Deep Avadh,3.6
+1280,user_0129_abc,76577,Cafe Carribean,4.6
+1281,user_0129_abc,79283,House Of Waffles,3.4
+1282,user_0129_abc,77270,Ranjan Snack Foods,5.0
+1283,user_0129_abc,102815,Capoor & Sons,4.4
+1284,user_0129_abc,82358,Raj Gharana- The Heritage Food Villa,5.0
+1285,user_0129_abc,80800,Mealean,4.5
+1286,user_0129_abc,88712,Cafe Tea Bubbles,4.6
+1287,user_0129_abc,85833,New Awadh Biryani Corner,4.7
+1288,user_0129_abc,100253,Indrani Sweets And Restaurant,4.8
+1289,user_0129_abc,76546,The Diners,4.6
+1290,user_0130_abc,102127,Subway,3.5
+1291,user_0130_abc,81891,Boomerang Restro and Lounge,2.9
+1292,user_0130_abc,83172,Al Baike.net,4.1
+1293,user_0130_abc,86057,Cafe Cloud,4.2
+1294,user_0130_abc,102929,Pizza Port,3.3
+1295,user_0130_abc,91625,Shyam Lassi Bhandar,3.0
+1296,user_0130_abc,86316,Adam's Club,3.2
+1297,user_0130_abc,83265,Al Baik Xpress,4.2
+1298,user_0130_abc,82932,"PASHUPATI ""Scoopers & LaReine""",3.1
+1299,user_0130_abc,91210,The Mughal Taj,3.0
+1300,user_0131_abc,76776,Kake Da Hotel,5.0
+1301,user_0131_abc,77335,Shri Ganpati Sweets & Restaurant,3.3
+1302,user_0131_abc,101451,Closet Fashion Cafe,2.7
+1303,user_0131_abc,93591,Domino's Pizza,3.2
+1304,user_0131_abc,79998,Caprice - Radisson Lucknow City Center,4.6
+1305,user_0131_abc,75497,Rajdhani Non Veg Centre,3.8
+1306,user_0131_abc,102254,Baba Ka Dhaba,3.0
+1307,user_0131_abc,79038,Om Sai Bhojnalay,3.3
+1308,user_0131_abc,93683,The Magari,2.7
+1309,user_0131_abc,84130,Subcontinent,5.0
+1310,user_0132_abc,79676,Pizza Cutter,4.2
+1311,user_0132_abc,81600,Alishma Foods,4.5
+1312,user_0132_abc,94936,King's Bakery,5.0
+1313,user_0132_abc,85818,Raj Nandani Kulcha Corner,3.6
+1314,user_0132_abc,76402,The Penthouse Cafe,3.8
+1315,user_0132_abc,103272,Classic Treat Restaurant,3.5
+1316,user_0132_abc,78063,Hungry Resto,4.4
+1317,user_0132_abc,79460,Crazzzy Chicken,3.8
+1318,user_0132_abc,77473,Froozo,2.6
+1319,user_0132_abc,96867,Petuks Kitchen,4.7
+1320,user_0133_abc,84240,Khana Khajana,5.1
+1321,user_0133_abc,88215,Khatir Restaurant,4.1
+1322,user_0133_abc,81406,Giani's Ice Cream,3.5
+1323,user_0133_abc,82557,Go 69 Pizza,5.0
+1324,user_0133_abc,86592,TandooriXPress,5.0
+1325,user_0133_abc,86774,3D Dine and Lounge,4.0
+1326,user_0133_abc,76372,Earthen Oven - Fortune Park BBD,2.6
+1327,user_0133_abc,94558,Gopiz,3.1
+1328,user_0133_abc,75213,Radhey Lal Sweets,3.5
+1329,user_0133_abc,90487,Al Baik.com,4.2
+1330,user_0134_abc,82103,Kalika Restaurant,2.6
+1331,user_0134_abc,80107,Purab Pashchim Restaurant,2.5
+1332,user_0134_abc,74712,New Jone Hing Chinese Restaurant,2.6
+1333,user_0134_abc,101528,Al - Baike,4.2
+1334,user_0134_abc,84097,The Golden Treat,3.2
+1335,user_0134_abc,75045,Awadhyana Restaurant,5.1
+1336,user_0134_abc,100087,Mahesh's Mansarovar,2.6
+1337,user_0134_abc,101451,Closet Fashion Cafe,5.0
+1338,user_0134_abc,76803,Refuel Cafe,3.4
+1339,user_0134_abc,75064,Cafe Frangipani,4.6
+1340,user_0135_abc,85868,Ritzz Mithai Vatika,3.4
+1341,user_0135_abc,202669,Goli Vada Pav No.1,3.6
+1342,user_0135_abc,90669,Teavibe,4.2
+1343,user_0135_abc,80401,Thikana Cafe,2.8
+1344,user_0135_abc,77459,7th Heaven,4.3
+1345,user_0135_abc,84015,Prema Delight,2.9
+1346,user_0135_abc,92676,Punjabi Dhaba Special,4.3
+1347,user_0135_abc,74420,Ram Asrey,5.0
+1348,user_0135_abc,76026,Hunger On,3.7
+1349,user_0135_abc,93812,Exchange RestoBar,3.2
+1350,user_0136_abc,91242,Coffee Kopcha,4.3
+1351,user_0136_abc,88929,Shake & Shake,3.2
+1352,user_0136_abc,97034,Jai Bharat Hotel,2.8
+1353,user_0136_abc,86219,Ustad Non Veg Point,4.5
+1354,user_0136_abc,77653,Vintage Village,3.7
+1355,user_0136_abc,82538,Publique De Bistro & Cafe,3.0
+1356,user_0136_abc,78221,Samurai Hunger,2.6
+1357,user_0136_abc,91731,Sapna Sweets,5.1
+1358,user_0136_abc,82023,Jai Durgay Ma Vaishnav Bhojanalaya,3.2
+1359,user_0136_abc,104620,Cafe 26,5.0
+1360,user_0137_abc,76841,Shivom Mithai Shop,2.7
+1361,user_0137_abc,88004,Bukhara Grill,4.3
+1362,user_0137_abc,101475,Jai Mata Di Lassi Bhandar,4.8
+1363,user_0137_abc,85971,Awadhi Bites,3.6
+1364,user_0137_abc,102486,Percussion,3.7
+1365,user_0137_abc,79022,Handi Fine Dine and Family Restaurant,2.6
+1366,user_0137_abc,83996,The Pacific Hut,3.3
+1367,user_0137_abc,97952,Gannewala,3.3
+1368,user_0137_abc,79361,Ajay Khaste,5.1
+1369,user_0137_abc,84395,Copper Handi - Hotel Vijay Paradise,2.8
+1370,user_0138_abc,79250,Roti Unlimited,2.6
+1371,user_0138_abc,84196,Recharge Cafe,3.9
+1372,user_0138_abc,76943,Prakash Kulfi,4.1
+1373,user_0138_abc,79329,Balle Balle Delhi Wale Soya Chaap Zone,3.1
+1374,user_0138_abc,94400,Aj Mughlai Point,5.1
+1375,user_0138_abc,103070,Social Adda,4.8
+1376,user_0138_abc,89231,Lucknow Wale Kababi,2.7
+1377,user_0138_abc,92375,Cafe Roost Dine And Lounge,4.1
+1378,user_0138_abc,94158,The Healthy Stop,3.1
+1379,user_0138_abc,94239,Hungry Bunny,2.7
+1380,user_0139_abc,104578,Ice N Spice,4.0
+1381,user_0139_abc,100087,Mahesh's Mansarovar,4.1
+1382,user_0139_abc,78319,Palm Delight,4.6
+1383,user_0139_abc,77507,Zeeshan Biryani Corner,4.7
+1384,user_0139_abc,102766,Non Veg Point,4.4
+1385,user_0139_abc,95790,Janab Begum Restaurant,4.9
+1386,user_0139_abc,86560,Rangers Corner,2.9
+1387,user_0139_abc,93193,Trups Restro Club,3.9
+1388,user_0139_abc,75479,Silver Spoon - Bakers & Cafe,2.5
+1389,user_0139_abc,75139,Prem Non Veg Point,2.9
+1390,user_0140_abc,96867,Petuks Kitchen,3.5
+1391,user_0140_abc,79250,Roti Unlimited,4.5
+1392,user_0140_abc,76372,Earthen Oven - Fortune Park BBD,4.2
+1393,user_0140_abc,76053,Dosa Plaza,3.7
+1394,user_0140_abc,87511,Espresso Factory,3.0
+1395,user_0140_abc,81220,Cafe Big Shack,4.8
+1396,user_0140_abc,81694,Modern Bakery,3.4
+1397,user_0140_abc,82341,Aman Bhojnalay And Fast Food,4.8
+1398,user_0140_abc,84258,Kozy Korner,4.1
+1399,user_0140_abc,77319,Jain Chat,4.4
+1400,user_0141_abc,102847,Curry Leaf,4.5
+1401,user_0141_abc,94791,Eat Street,4.1
+1402,user_0141_abc,74689,BFF: Boisson Food Factory,3.2
+1403,user_0141_abc,90795,New Al- Baike,2.9
+1404,user_0141_abc,83820,Food On Wheels,2.8
+1405,user_0141_abc,87433,The Lazzat nonveg corner,2.9
+1406,user_0141_abc,77022,Noodle Bar,3.5
+1407,user_0141_abc,79798,Bawarchi Pure Veg,3.5
+1408,user_0141_abc,94400,Aj Mughlai Point,4.5
+1409,user_0141_abc,90959,Pop-Eye's Pizza,4.9
+1410,user_0142_abc,104256,Shaukeens The Bistro,3.6
+1411,user_0142_abc,201480,The Sweet Lussious,4.6
+1412,user_0142_abc,83012,Pandit Raja Thandai,4.9
+1413,user_0142_abc,104789,Keventers,3.5
+1414,user_0142_abc,93374,P Jais Fine Dine Restaurant,2.7
+1415,user_0142_abc,77672,Masala Asia,4.8
+1416,user_0142_abc,74420,Ram Asrey,4.3
+1417,user_0142_abc,79581,Oudhi,3.2
+1418,user_0142_abc,82311,Aabshaar - Ranbirs,4.9
+1419,user_0142_abc,79981,Saif Nonveg Corner,4.1
+1420,user_0143_abc,94275,Sanjha Chulah,4.8
+1421,user_0143_abc,91539,Al-Bake,3.1
+1422,user_0143_abc,91650,Milan Kachori Bhandar,3.3
+1423,user_0143_abc,86644,Aryan Family's Restaurant,2.6
+1424,user_0143_abc,77441,Handi Biryani,4.6
+1425,user_0143_abc,92642,House Of Chinese,4.4
+1426,user_0143_abc,98397,Cooking on Booking,3.8
+1427,user_0143_abc,94042,Crispian,4.3
+1428,user_0143_abc,97099,Milan Restaurant,4.9
+1429,user_0143_abc,87164,Shubh Labh Mithai Shop,3.8
+1430,user_0144_abc,77560,Mohan Sweets & Bakers,3.2
+1431,user_0144_abc,89464,Groove- SS Grandeur Hotel,3.9
+1432,user_0144_abc,82557,Go 69 Pizza,4.8
+1433,user_0144_abc,80161,Mellows,3.7
+1434,user_0144_abc,102879,Ttamaasha Bistro Bar,5.0
+1435,user_0144_abc,104486,Goli Vada Pav,4.9
+1436,user_0144_abc,87265,Radiance Restro & Cafe,2.8
+1437,user_0144_abc,76285,Dalchini Huts,4.7
+1438,user_0144_abc,83045,Le Bougainvillea - Hotel Clarks Avadh,4.1
+1439,user_0144_abc,78155,Temptations,3.2
+1440,user_0145_abc,77507,Zeeshan Biryani Corner,3.3
+1441,user_0145_abc,85495,Barbeque Family Restaurant,4.2
+1442,user_0145_abc,90536,GPS-Feed Your Hunger,4.5
+1443,user_0145_abc,77951,Chef's Kitchen,4.6
+1444,user_0145_abc,100046,Santosh Mithai Mahal,4.0
+1445,user_0145_abc,94086,The Palms,4.6
+1446,user_0145_abc,82778,Pushpak Dosa's,4.4
+1447,user_0145_abc,101231,Durgma Restaurant,4.2
+1448,user_0145_abc,86801,Chopstix,3.5
+1449,user_0145_abc,102328,Babian,2.9
+1450,user_0146_abc,91787,Maan Royals,4.4
+1451,user_0146_abc,96037,Royal Cafe And Confectionery,3.2
+1452,user_0146_abc,101625,Aryan Family's Delight,2.7
+1453,user_0146_abc,99855,Cafe Repertwahr,4.7
+1454,user_0146_abc,76841,Shivom Mithai Shop,4.7
+1455,user_0146_abc,202669,Goli Vada Pav No.1,4.4
+1456,user_0146_abc,76859,Frozen Junction,2.6
+1457,user_0146_abc,86787,The Kalika Restaurant,4.1
+1458,user_0146_abc,76026,Hunger On,2.8
+1459,user_0146_abc,97985,Mubaraka Hotel,3.6
+1460,user_0147_abc,104363,Cheer Peer - The Metropolitan Club,4.4
+1461,user_0147_abc,81374,Moscow Mutton,4.7
+1462,user_0147_abc,96975,Gayatri Mishthan Bhandar,3.4
+1463,user_0147_abc,95984,Chaat Darbar,3.1
+1464,user_0147_abc,102569,Aadab-e-Dastarkhwan,3.9
+1465,user_0147_abc,74438,Nawabeen's Awadhi Restaurant,3.7
+1466,user_0147_abc,102422,Awadh Biryani,4.7
+1467,user_0147_abc,102651,Bala Ji Ka Dhaba,2.6
+1468,user_0147_abc,89261,Anjana Restaurant & Caterer,3.1
+1469,user_0147_abc,76776,Kake Da Hotel,3.6
+1470,user_0148_abc,82507,Al-Bake.Com,2.9
+1471,user_0148_abc,105037,Punjabi Choolha,4.3
+1472,user_0148_abc,89712,Al - Baik,4.5
+1473,user_0148_abc,97018,Mughal Darbar,4.0
+1474,user_0148_abc,88642,Cake Ocean Bakery,3.0
+1475,user_0148_abc,81957,Hot Spoons,4.3
+1476,user_0148_abc,88169,Golden Court,5.1
+1477,user_0148_abc,80304,Milkshake Factory,4.7
+1478,user_0148_abc,86072,Cafe Quane - Ramada Lucknow,3.1
+1479,user_0148_abc,92496,Welcome Family Restaurant,3.6
+1480,user_0149_abc,102229,Naushijaan,4.2
+1481,user_0149_abc,80047,La Reine,4.1
+1482,user_0149_abc,85145,Dilli Darbar,2.7
+1483,user_0149_abc,84457,Theka - The Piccadily,3.5
+1484,user_0149_abc,201145,Moti Mahal Delux,4.2
+1485,user_0149_abc,85890,Fofo,3.1
+1486,user_0149_abc,81856,Heaven Can Wait,5.1
+1487,user_0149_abc,101030,Sign In Cafe,4.2
+1488,user_0149_abc,102032,Grand Cabana - Hotel Savvy Grand,3.4
+1489,user_0149_abc,102195,New Mubeen,4.1
+1490,user_0150_abc,79204,Mr. Shawarma,4.8
+1491,user_0150_abc,99922,Rattilal's,5.1
+1492,user_0150_abc,85509,Saleem Hotel,4.2
+1493,user_0150_abc,81872,C'Cafe Hut,2.9
+1494,user_0150_abc,75773,Dreamy Delicacies,3.4
+1495,user_0150_abc,89641,Richi Rich Fast Food,5.1
+1496,user_0150_abc,77653,Vintage Village,3.6
+1497,user_0150_abc,88911,Poker,4.6
+1498,user_0150_abc,93115,New Baba Family Restaurant,4.9
+1499,user_0150_abc,90424,Earthen Flavours,4.7
