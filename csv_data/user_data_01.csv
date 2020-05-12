@@ -1,5 +1,4 @@
 ,USERNAME,EMAIL,PASSWORD,NAME,AGE,PHONE,CITY
-0,,,,,,,
 1,user_01_abc,user_01@gmail.com,user_01@9876!,user_01,49,4810813417,Varanasi
 2,user_02_abc,user_02@gmail.com,user_02@9876!,user_02,36,312701126,Bhopal
 3,user_03_abc,user_03@gmail.com,user_03@9876!,user_03,39,4452045781,Palakkad

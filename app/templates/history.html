@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block css %}
+<style>
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+</style>
+{% endblock %}
+
+
+{% block body %}
+
+<div class="container">
+    <div class="row justify-items-center">
+        <div class="col-md-6 mt-5">
+            {% include "notify.html" %}
+
+        </div>
+    </div>
+</div>
+{% endblock %}
