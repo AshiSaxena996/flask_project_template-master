@@ -933,7 +933,7 @@ th {
 /*---------- End Elements Page -------------*/
 .sample-text-area {
   background: #f9f9ff;
-  padding: 100px 0 70px 0; }
+  padding: 100px 0 70px 0 !important;  }
 
 .sample-text {
   margin-bottom: 0; }
@@ -2166,8 +2166,8 @@ h1, h2, h3, h4, h5, h6 {
       margin-top: 60px; } }
 
 .booking-form {
-  padding: 120px 50px 240px;
-  background: #faf5f0; }
+  padding: 50px ;
+  background:  #faf5f0; }
   @media (max-width: 991px) {
     .booking-form {
       padding: 30px 20px; } }

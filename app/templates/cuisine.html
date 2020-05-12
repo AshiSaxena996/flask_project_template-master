@@ -1,0 +1,159 @@
+  {% extends 'base.html'%}
+{% block css %}
+<style>
+  body{
+    background-color: rgb(252, 248, 248);
+    
+  }
+</style>
+{% endblock %}
+
+{% block body %}
+
+<section class="banner-area relative ">
+  <div class="container" >
+      <div class="row height align-items-center justify-content-center">
+          <div class="banner-content col-lg-6">
+              <h1>CUISINES</h1>
+              <hr>
+              
+          </div>
+      </div>
+  </div>
+</section>
+
+<div class="container">
+<div class="section-top-border">
+  <h3 class="mb-30">INSIGHTS</h3>
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="sample-text"></p>
+      <blockquote class="generic-blockquote">
+        
+        <i>“Culinary is one of the most significant needs of our society as culinary is not just about the food, 
+        but also about a community lifestyle. The norms and values of a place can be significantly related to 
+        varieties of food available there.
+        This page allows user to choose their meal according to various cuisines available in market around them.
+        User can easily pick up a cuisine of their choice and get access to recommendations accordingly. ”
+        </i>
+      
+      </blockquote>
+    </p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<!-- <form method="post">
+
+  </div>
+</div>
+</form> -->
+
+<form method="post">
+<div class="container">
+<div class="section-top-border text-center">
+  <div class="typography">
+  <h2 class="typo-list">CUISINES OFFERED</h2></div>
+  <div class="row gallery-item">
+
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/chinese.jpg" class="img-gal" target='_blank'>
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/chinese.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="chinese" value="CHINESE"></center>
+    </div>
+
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/ITALIAN.jpg" class="img-gal">
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/ITALIAN.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="italian" value="ITALIAN"></center>
+    </div>
+
+  
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/NORTH_INDIAN.jpg" class="img-gal">
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/NORTH_INDIAN.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="north_indian" value="NORTH_INDIAN"></center>
+    </div>
+
+
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/BAKERY.jpg" class="img-gal">
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/BAKERY.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="bakery" value="BAKERY"></center>
+    </div>
+
+
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/MUGHLAI.jpg" class="img-gal">
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/MUGHLAI.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="mughlai" value="MUGHLAI"></center>
+    </div>
+
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/CONTINENTAL1.jpg" class="img-gal">
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/CONTINENTAL1.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="continental" value="CONTINENTAL"></center>
+    </div>
+
+
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/FASTFOOD1.jpg" class="img-gal">
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/FASTFOOD1.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="FASTFOOD" value="FASTFOOD"></center>
+    </div>
+
+
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/SI.jpg" class="img-gal">
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/SI.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="south_indian" value="SOUTH INDIAN"></center>
+    </div>
+
+
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/sweets.jpg" class="img-gal">
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/sweets.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="sweets" value="SWEETS"></center>
+    </div>
+
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/mexican.jpg" class="img-gal">
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/mexican.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="mexican" value="MEXICAN"></center>
+    </div>
+
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/bbq.jpg" class="img-gal">
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/bbq.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="bbq" value="BBQ"></center>
+    </div>
+
+    <div class="col-md-3">
+      <a href="static/img/CUSINE/BEVERAGES.jpg" class="img-gal">
+        <div class="single-gallery-image" style="background: url(static/img/CUSINE/BEVERAGES.jpg);"></div>
+      </a>
+      <center><input type="submit" name="submit_button" class="btn btn-dark" style="width: 100%;" id="beverages" value="BEVERAGES"></center>
+    </div>
+
+  </div>
+</div>
+</div>
+</form>
+
+
+{% endblock %}

@@ -14,7 +14,60 @@
     </div>
 </section>
 
-<footer class="footer-area section-gap">
+<div class="container">
+    <div class="section-top-border">
+        <!-- <h3 class="mb-30">ABOUT OUR PROJECT</h3> -->
+        <h1>
+            About 
+            Our 
+            Project
+        </h1>
+        <BR>
+        <div class="row">
+            <br>
+            <div class="col-md-3" >
+                <img src="{{ url_for('static', filename='img/1.png') }}" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-9 mt-sm-20 left-align-p">
+                <p>Restaurant Recommendation System based on Collaborative Filtering is a web-based restaurant recommendation system. 
+                    The primary aim of the application is to suggest a user the best possible choice of food to eat in a given location based on their food targets.
+                    <ul style="list-style-type: circle">
+                        <li>We implement a user-based collaborative filtering method to recommend a restaurant personally, based on ratings given by other users. 
+                        </li>
+                        <li>We also use other algorithm such as K-NN algorithm, to predict similar results
+                        </li>
+                    </ul><BR>
+                    It thus offers a chance for people to experience new options, based on their previous likes and choices	
+                    </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+    <div class="section-top-border text-right">
+        <h1>
+            TEAM INVOLVED
+        </h1>
+        <BR>
+        <div class="row">
+            <div class="col-md-9">
+                <p class="text-right">This project has been developed as a part of our MCA end semester examination.
+                    <br>The team members involved were:
+                    <ul style="list-style-type: circle">
+                        <li>ASHI SHARAD SAXENA  (2180212012)</li>
+                        <li>PRIYA CHAUHAN  (2180212049)</li>
+                    </ul><BR>
+                    </p>
+            </div>
+            <div class="col-md-3">
+                <img src="{{ url_for('static', filename='img/team2.jpg') }}" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <footer class="footer-area section-gap">
     <div class="container">
         <div class="row justify-content-between" style="text-align: center">
             <div class="col-lg-2 col-md-6 col-sm-6">
@@ -44,7 +97,7 @@
         </p>            
         </div>
     </div>
-</footer>
+</footer> -->
 
 
 {% endblock %}
