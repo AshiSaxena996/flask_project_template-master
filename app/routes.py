@@ -5,7 +5,7 @@ from app.models import User, Restaurant, Cuisine, Rating,Locality
 import pandas as pd
 import numpy as np
 from datetime import datetime
-
+from app.collabrative_filtering import *
 
 @app.route('/')
 @app.route('/index')
@@ -119,8 +119,31 @@ def query():
 
 @app.route('/search',methods=['POST','GET'])
 def search():
-    return render_template('search.html', title='about_1')
-
+    results = None
+    options = None
+    if request.method =='POST':
+        locality = request.form.get('locality')
+        cuisine = request.form.get('cuisine')
+        price_min = request.form.get('price_min')
+        price_max = request.form.get('price_max')
+        options = request.form
+        results = Restaurant.query.filter(Restaurant.area.contains(locality))
+        print(options)
+        if cuisine != 'All':
+            results = results.filter(Restaurant.cuisine.like(cuisine))
+        if price_max.isnumeric() and price_min.isnumeric():
+            results = results.filter(Restaurant.cost_for_two.in_([price_min, price_max]))
+        print(results)
+    localities = Locality.query.all()
+    cusines = Cuisine.query.all()
+    dataset = []
+    for row in cusines:
+        if ',' in row.name:
+            dataset.extend(row.name.split(','))
+        else:
+            dataset.append(row.name)
+    cusineslist = list(set(dataset))
+    return render_template('search.html', title='guest search', cusineslist=cusineslist, localities=localities,results=results, options=options)
 
 @app.route('/price',methods=['POST','GET'])
 @login_required
@@ -207,7 +230,59 @@ def history():
 @app.route('/recommend')
 @login_required
 def recommend():
-    return render_template('top_rest.html', title='about_1')
+    try:
+        username = current_user.username
+        user= pd.read_sql('rating',db.engine)
+        user[user.username==username]
+        a= user[user.username==username]
+        b= a.rating
+        b.tolist()
+        df = user.set_index('id', drop = True)
+        a1= df.loc[10:20,"rating"]
+        a2= list(a1)
+        hotel = pd.read_sql("restaurant", db.engine)
+        Ratings = pd.read_sql("rating", db.engine)
+        Mean = Ratings.groupby(by="username",as_index=False)['rating'].mean()
+        Rating_avg = pd.merge(Ratings,Mean,on='username')
+        Rating_avg['adg_rating']=Rating_avg['rating_x']-Rating_avg['rating_y']
+        Rating_avg.head(15)
+
+        hotel.rename(columns = {'id':'rest_id'}, inplace = True) 
+
+        check = pd.pivot_table(Rating_avg,values='rating_x',index='username',columns='rest_id')
+        final = pd.pivot_table(Rating_avg,values='adg_rating',index='username',columns='rest_id')
+
+        # Replacing NaN by restuarant Average
+        final_restuarant = final.fillna(final.mean(axis=0))
+
+        # Replacing NaN by user Average
+        final_user = final.apply(lambda row: row.fillna(row.mean()), axis=1)
+        b = cosine_similarity(final_user)
+        np.fill_diagonal(b, 0 )
+        similarity_with_user = pd.DataFrame(b,index=final_user.index)
+        similarity_with_user.columns=final_user.index
+
+        # user similarity on replacing NAN by item(restuarant) avg
+        cosine = cosine_similarity(final_restuarant)
+        np.fill_diagonal(cosine, 0 )
+        similarity_with_restuarant = pd.DataFrame(cosine,index=final_restuarant.index)
+        similarity_with_restuarant.columns=final_user.index
+
+        # top 30 neighbours for each user
+        sim_user_30_u = find_n_neighbours(similarity_with_user,30)
+
+        # top 30 neighbours for each user
+        sim_user_30_m = find_n_neighbours(similarity_with_restuarant,30)
+        
+        score = User_item_score(username,74385,sim_user_30_m,final_restuarant,Mean,similarity_with_restuarant)
+        Rating_avg = Rating_avg.astype({"rest_id": str})
+        restuarant_user = Rating_avg.groupby(by = 'username')['rest_id'].apply(lambda x:','.join(x))
+        user = current_user.username
+        pred_rest = User_item_score1(user, Mean, similarity_with_restuarant, check,sim_user_30_m, restuarant_user, final_restuarant, hotel,)
+    except Exception as e:
+        pred_rest = None
+        score = 0
+    return render_template('top_rest.html', title='about_1',score=str(score)[:5], data= pred_rest)
 
 
 @app.route('/demo_map')

@@ -80,7 +80,7 @@ class Restaurant(db.Model):
 class Rating(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     rest_id = db.Column(db.Integer, db.ForeignKey(Restaurant.id))
-    rating = db.Column(db.Integer)
+    rating = db.Column(db.Float)
     username = db.Column(db.String(64), db.ForeignKey(User.username))
     date_posted = db.Column(db.DateTime, index=True, default=datetime.now)
 

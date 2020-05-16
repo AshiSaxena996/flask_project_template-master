@@ -2,8 +2,7 @@
 {% block css %}
 <style>
     body{
-        background-color: rgb(252, 248, 248);
-        
+        background-color: rgb(252, 248, 248);   
     }
 </style>
 {% endblock %}
@@ -18,7 +17,7 @@
     <div class="container">
         <div class="row height align-items-center justify-content-center">
             <div class="banner-content col-lg-5">
-                <h1>TOP RATED!</h1>
+                <h1>Your recommendation based on your history</h1>
                 <hr>
                 
             </div>
@@ -28,116 +27,35 @@
 
 <div class="container" >
     <section class="sample-text-area" style="padding-top: 0">
-        <form method="POST" class="row" style="padding: 0 20px 0 20px;">
-            
-            <div class="col-md-3">
-                <div class="single-defination">
-                    <h4 class="mb-20">LOCALITY</h4>
-                    <div class="single-element-widget">
-                        <!-- <h3 class="mb-30">Selectboxes</h3> -->
-                        <div class="default-select" id="default-select">
-                            <select name="locality">
-                                {% for row in localities %}
-                                    <option value="{{row}}">{{row}}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3">
-                <div class="single-defination">
-                    <h4 class="mb-20">CUISINE</h4>
-                    <div class="single-element-widget">
-                        <div class="default-select" id="default-select">
-                            <select name="cuisine">
-                                <option value="All">All</option>
-                                {% for row in cusineslist %}
-                                    <option value="{{row}}">{{row}}</option>
-                                {% endfor %} 
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3">
-                <div class="single-defination">
-                    <h4 class="mb-20">Rating</h4>
-                    
-                    <div class="row">
-                        <div class="col-md-5 d-flex flex-column mb-20">
-                            <input name="price_min" placeholder="From" class="form-control"  type="number" min="1" max="4">
-                        </div>
-                        <div class="col-md-2 d-flex flex-column mt-3">
-                            <i class="fas fa-chevron-left fa-lg "></i>
-                        </div>
-                        <div class="col-md-5 d-flex flex-column mb-20">
-                            <input name="price_max" placeholder="to" class="form-control"  type="number" min="2" max="5">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mt-3 d-flex justify-content-center">
-                <div class="button-group-area mt-20">
-                    <button class="genric-btn primary radius">Search</button>
-                </div>
-            </div>
-        </form>
-    </section>
-</div>
-<div class="container">
-    <div class="section-top-border">
+        {% if data %}
         <div class="row">
-            <div class="col-12 mt-1 mx-auto">
-                {% include "notify.html" %}
-                {% if results and options %}
-                <p class="lead">
-                    Selected Parameters
+            <div class="col-12 mt-5">
+                <p class="lead text-center">
+                    The recommendation score is <b>{{score}}</b> ,(higher the score the better the recommendation)
                 </p>
-                <span class="badge badge-pill text-upper">locality : {{options.locality}}</span>
-                <span class="badge badge-pill text-upper">Cuisine : {{options.cuisine}}</span>
-                <span class="badge badge-pill text-upper">Max price : {{options.price_min}}</span>
-                <span class="badge badge-pill text-upper">Min price : {{options.price_max}}</span>
-                <br>
-                <br>
-                <table class="table table-sm table-bordered table-striped shadow-lg table-hover " >
-                    <thead class="thead-inverse">
-                        <tr>
-                            <th>Restuarant Id</th>
-                            <th>Restuarant Name</th>
-                            
-                            <th>Cost for Two</th>
-                            <th>Famous food</th>
-                            <th>Total Rating</th>
-                            <th><i class="fas fa-star"></i></th>
-                          
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for row in results %}
-                        <tr>
-                            <td><sup>{{row.id}}</sup></td>
-                            <td class="text-info">{{row.name}} &nbsp;<a href="{{row.zomato_url}}" class="float-right" target="blank"><i class="fas fa-external-link-alt fa-sm text-warning"></i></a></td>
-                            <td>{{row.cost_for_two}}</td>
-                            <td>{{row.famous_food}}</td>
-                            <td>{{row.rating_count}}</td>
-                            <td class="text-success">{{row.rating}}</td>
-                           
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-                {% else %}
-                    <p class="lead">
-                        Please select options to get the data
-                    </p>
-                {% endif %}
-                
             </div>
         </div>
-    </div>
+        <div class="row">
+            {% for item in data %}
+            <div class="col-8 mt-2 mx-auto">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h1 class="display-4">{{item}}</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}    
+        </div>
+        {% else %}
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-3 text-center">No recommedation for you</h1>
+            </div>
+        </div>
+        {% endif %}
+    </section>
 </div>
 
 
