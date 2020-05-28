@@ -227,11 +227,17 @@ def history():
     return render_template('history.html', title='about_1',data = dataset)
 
 
-@app.route('/recommend')
+@app.route('/recommend', methods=['GET','POST'])
 @login_required
 def recommend():
     try:
         username = current_user.username
+        if request.method =='POST':
+            name = request.form.get('name')
+            if name:
+                uname =  User.query.filter_by(username=name).first()
+                username = uname.username
+                print(username)
         user= pd.read_sql('rating',db.engine)
         user[user.username==username]
         a= user[user.username==username]
@@ -282,7 +288,7 @@ def recommend():
     except Exception as e:
         pred_rest = None
         score = 0
-    return render_template('top_rest.html', title='about_1',score=str(score)[:5], data= pred_rest)
+    return render_template('top_rest.html',user=username, title='about_1',score=str(score)[:5], data= pred_rest)
 
 
 @app.route('/demo_map')

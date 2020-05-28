@@ -74,7 +74,7 @@ def User_item_score1(user, Mean, similarity_with_restuarant, check, sim_user_30_
 
 
 if __name__ == "__main__":
-    username = "user_013_abc"
+    username = "user_053_abc"
     user= pd.read_sql('rating',db.engine)
     user[user.username==username]
     a= user[user.username==username]
